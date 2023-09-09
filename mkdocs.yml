@@ -1,7 +1,7 @@
-site_name: java.front
-site_url: https://pdmosses.github.io/java.front/
-repo_name: pdmosses/java.front
-repo_url: https://github.com/pdmosses/java.front/
+site_name: java-front
+site_url: https://pdmosses.github.io/java-front/
+repo_name: pdmosses/java-front
+repo_url: https://github.com/pdmosses/java-front
 
 theme:
   name: material
