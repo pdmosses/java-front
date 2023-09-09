@@ -1,15 +1,19 @@
 ---
 id: org.metaborg:lang.java:1.1.0-SNAPSHOT
 name: metaborg-java
+metaborgVersion: 2.6.0-SNAPSHOT
+metaborgBaselineVersion: 2.5.17
 dependencies:
   compile:
-  - org.metaborg:org.metaborg.meta.lang.esv:${metaborgVersion}
   - org.metaborg:org.metaborg.meta.lang.template:${metaborgVersion}
+  - org.metaborg:org.metaborg.meta.lang.nabl:${metaborgBaselineVersion}
+  - org.metaborg:org.metaborg.meta.lang.esv:${metaborgBaselineVersion}
+  - org.metaborg:org.metaborg.meta.lang.ts:${metaborgBaselineVersion}
   - org.metaborg:statix.lang:${metaborgVersion}
-  - org.metaborg:sdf3.ext.statix:${metaborgVersion}
   source:
+  - org.metaborg:org.metaborg.meta.lib.analysis:${metaborgVersion}
   - org.metaborg:meta.lib.spoofax:${metaborgVersion}
-  - org.metaborg:stratego.lang:${metaborgVersion}
+  - org.metaborg:statix.runtime:${metaborgVersion}
 exports:
 - language: Stratego-Sugar
   directory: src-gen
