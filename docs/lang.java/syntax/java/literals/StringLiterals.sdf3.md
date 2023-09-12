@@ -58,11 +58,11 @@ title: StringLiterals.sdf3
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="../Main.sdf3#StringLiteral_419_432" id="StringLiteral_205_218" title="Referenced at ../Main.sdf3 line 23; line 11">StringLiteral</a>
+  <a href="#StringLiteral_166_179" id="StringLiteral_205_218" title="Referenced at line 11; ../Main.sdf3 line 23">StringLiteral</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="../Main.sdf3#StringLiteral_419_432" id="StringLiteral_243_256" title="Referenced at ../Main.sdf3 line 23; line 11">StringLiteral</a>.<span class="cons_Constructor"><span id="StringLiteral_257_270" title="Not referenced locally, nor via imports">StringLiteral</span></span> = <a href="#StringLit_305_314" id="StringLit_273_282" title="Defined at line 23, 27">StringLit</a>  
+  <a href="#StringLiteral_166_179" id="StringLiteral_243_256" title="Referenced at line 11; ../Main.sdf3 line 23">StringLiteral</a>.<span class="cons_Constructor"><span id="StringLiteral_257_270" title="Not referenced locally, nor via imports">StringLiteral</span></span> = <a href="#StringLit_305_314" id="StringLit_273_282" title="Defined at line 23, 27">StringLit</a>  
   
 <span class="keyword">lexical sorts</span>
 

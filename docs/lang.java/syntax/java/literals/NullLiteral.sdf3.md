@@ -34,9 +34,9 @@ title: NullLiteral.sdf3
 
 <span class="keyword">context-free sorts</span>
 
-  <a href="../Main.sdf3#NullLiteral_445_456" id="NullLiteral_130_141" title="Referenced at ../Main.sdf3 line 24; line 7">NullLiteral</a>
+  <a href="#NullLiteral_95_106" id="NullLiteral_130_141" title="Referenced at line 7; ../Main.sdf3 line 24">NullLiteral</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="../Main.sdf3#NullLiteral_445_456" id="NullLiteral_166_177" title="Referenced at ../Main.sdf3 line 24; line 7">NullLiteral</a>.<span class="cons_Constructor"><span id="Null_178_182" title="Not referenced locally, nor via imports">Null</span></span> = &lt;<span class="cons_String">null</span>&gt;
+  <a href="#NullLiteral_95_106" id="NullLiteral_166_177" title="Referenced at line 7; ../Main.sdf3 line 24">NullLiteral</a>.<span class="cons_Constructor"><span id="Null_178_182" title="Not referenced locally, nor via imports">Null</span></span> = &lt;<span class="cons_String">null</span>&gt;
 </code></pre></td></tr></tbody></table></div>
