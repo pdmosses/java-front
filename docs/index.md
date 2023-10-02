@@ -1,8 +1,4 @@
----
-title: About
----
-
-# About this website
+# Home
 
 This website is a _[hyperlinked twin][hyperlinked twins]_ of the [Spoofax] project repository
 shown at the top right.
