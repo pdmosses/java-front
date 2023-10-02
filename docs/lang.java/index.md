@@ -11,12 +11,18 @@ hide:
 
 > A declarative specification of Java 8's syntax in [Spoofax].
 
+## Syntax
+
+[`metaborg-java.sdf3`](syntax/metaborg-java.sdf3.md)
+
 This example demonstrates generation of a hyperlinked twin from
 an [SDF3] definition of the syntax of a major programming language.
 
-## Project Structure
+## Name binding
 
-[`metaborg-java.sdf3`](syntax/metaborg-java.sdf3.md)
+The name binding of Java has not yet been specified in Spoofax meta-languages.
+
+## Project Structure
 
 > Each subdirectory of `syntax/java` contains specifications for a section of the Java language:
 
