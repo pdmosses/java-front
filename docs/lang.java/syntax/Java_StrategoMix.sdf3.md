@@ -1,5 +1,7 @@
 ---
 title: Java_StrategoMix.sdf3
+hide:
+  - toc
 ---
 
 # `Java_StrategoMix.sdf3`

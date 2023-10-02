@@ -1,5 +1,7 @@
 ---
 title: AnnotationTypes.sdf3
+hide:
+  - toc
 ---
 
 # `AnnotationTypes.sdf3`

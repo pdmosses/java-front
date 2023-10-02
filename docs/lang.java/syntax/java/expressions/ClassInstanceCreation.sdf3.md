@@ -1,5 +1,7 @@
 ---
 title: ClassInstanceCreation.sdf3
+hide:
+  - toc
 ---
 
 # `ClassInstanceCreation.sdf3`

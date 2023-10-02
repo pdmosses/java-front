@@ -1,5 +1,7 @@
 ---
 title: Postfix.sdf3
+hide:
+  - toc
 ---
 
 # `Postfix.sdf3`

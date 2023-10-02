@@ -1,5 +1,7 @@
 ---
 title: BinaryOperators.sdf3
+hide:
+  - toc
 ---
 
 # `BinaryOperators.sdf3`

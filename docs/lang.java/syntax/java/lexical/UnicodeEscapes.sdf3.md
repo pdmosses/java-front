@@ -1,5 +1,7 @@
 ---
 title: UnicodeEscapes.sdf3
+hide:
+  - toc
 ---
 
 # `UnicodeEscapes.sdf3`

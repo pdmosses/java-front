@@ -1,5 +1,7 @@
 ---
 title: Test.sdf3
+hide:
+  - toc
 ---
 
 # `Test.sdf3`

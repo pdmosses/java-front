@@ -1,5 +1,7 @@
 ---
 title: ImportDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `ImportDeclarations.sdf3`

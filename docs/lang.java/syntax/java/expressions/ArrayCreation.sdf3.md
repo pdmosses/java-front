@@ -1,5 +1,7 @@
 ---
 title: ArrayCreation.sdf3
+hide:
+  - toc
 ---
 
 # `ArrayCreation.sdf3`

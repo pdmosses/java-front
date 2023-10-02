@@ -1,5 +1,7 @@
 ---
 title: ConstantDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `ConstantDeclarations.sdf3`

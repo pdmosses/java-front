@@ -1,5 +1,7 @@
 ---
 title: Keywords.sdf3
+hide:
+  - toc
 ---
 
 # `Keywords.sdf3`

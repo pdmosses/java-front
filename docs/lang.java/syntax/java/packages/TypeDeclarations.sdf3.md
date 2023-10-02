@@ -1,5 +1,7 @@
 ---
 title: TypeDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `TypeDeclarations.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: StringLiterals.sdf3
+hide:
+  - toc
 ---
 
 # `StringLiterals.sdf3`

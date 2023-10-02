@@ -1,5 +1,7 @@
 ---
 title: SemiColon.sdf3
+hide:
+  - toc
 ---
 
 # `SemiColon.sdf3`

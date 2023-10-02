@@ -1,5 +1,7 @@
 ---
 title: ConstructorDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `ConstructorDeclarations.sdf3`

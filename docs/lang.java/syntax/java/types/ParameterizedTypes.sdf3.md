@@ -1,5 +1,7 @@
 ---
 title: ParameterizedTypes.sdf3
+hide:
+  - toc
 ---
 
 # `ParameterizedTypes.sdf3`

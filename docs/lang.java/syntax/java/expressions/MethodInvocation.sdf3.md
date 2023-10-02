@@ -1,5 +1,7 @@
 ---
 title: MethodInvocation.sdf3
+hide:
+  - toc
 ---
 
 # `MethodInvocation.sdf3`

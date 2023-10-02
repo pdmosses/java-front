@@ -1,5 +1,7 @@
 ---
 title: LambdaExpressions.sdf3
+hide:
+  - toc
 ---
 
 # `LambdaExpressions.sdf3`

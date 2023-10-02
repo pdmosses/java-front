@@ -1,5 +1,7 @@
 ---
 title: ArrayAccess.sdf3
+hide:
+  - toc
 ---
 
 # `ArrayAccess.sdf3`

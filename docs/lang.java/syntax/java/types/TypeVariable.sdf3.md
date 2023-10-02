@@ -1,5 +1,7 @@
 ---
 title: TypeVariable.sdf3
+hide:
+  - toc
 ---
 
 # `TypeVariable.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: ReferenceTypes.sdf3
+hide:
+  - toc
 ---
 
 # `ReferenceTypes.sdf3`

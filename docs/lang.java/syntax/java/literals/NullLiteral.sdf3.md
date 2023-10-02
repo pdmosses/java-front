@@ -1,5 +1,7 @@
 ---
 title: NullLiteral.sdf3
+hide:
+  - toc
 ---
 
 # `NullLiteral.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: FloatingPointLiterals.sdf3
+hide:
+  - toc
 ---
 
 # `FloatingPointLiterals.sdf3`

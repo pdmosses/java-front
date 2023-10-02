@@ -1,5 +1,7 @@
 ---
 title: EscapeSequences.sdf3
+hide:
+  - toc
 ---
 
 # `EscapeSequences.sdf3`

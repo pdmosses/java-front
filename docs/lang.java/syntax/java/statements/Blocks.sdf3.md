@@ -1,5 +1,7 @@
 ---
 title: Blocks.sdf3
+hide:
+  - toc
 ---
 
 # `Blocks.sdf3`

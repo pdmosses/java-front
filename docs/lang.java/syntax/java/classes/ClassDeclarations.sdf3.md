@@ -1,5 +1,7 @@
 ---
 title: ClassDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `ClassDeclarations.sdf3`

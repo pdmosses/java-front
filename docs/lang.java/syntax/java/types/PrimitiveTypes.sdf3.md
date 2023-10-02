@@ -1,5 +1,7 @@
 ---
 title: PrimitiveTypes.sdf3
+hide:
+  - toc
 ---
 
 # `PrimitiveTypes.sdf3`

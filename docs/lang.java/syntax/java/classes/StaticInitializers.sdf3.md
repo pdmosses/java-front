@@ -1,5 +1,7 @@
 ---
 title: StaticInitializers.sdf3
+hide:
+  - toc
 ---
 
 # `StaticInitializers.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: InstanceInitializers.sdf3
+hide:
+  - toc
 ---
 
 # `InstanceInitializers.sdf3`

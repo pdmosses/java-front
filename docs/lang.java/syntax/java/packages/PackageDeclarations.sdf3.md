@@ -1,5 +1,7 @@
 ---
 title: PackageDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `PackageDeclarations.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: LineTerminators.sdf3
+hide:
+  - toc
 ---
 
 # `LineTerminators.sdf3`

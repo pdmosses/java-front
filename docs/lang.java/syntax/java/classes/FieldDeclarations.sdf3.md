@@ -1,5 +1,7 @@
 ---
 title: FieldDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `FieldDeclarations.sdf3`

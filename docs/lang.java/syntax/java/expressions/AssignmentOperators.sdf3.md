@@ -1,5 +1,7 @@
 ---
 title: AssignmentOperators.sdf3
+hide:
+  - toc
 ---
 
 # `AssignmentOperators.sdf3`

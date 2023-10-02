@@ -1,5 +1,7 @@
 ---
 title: metaborg-java.sdf3
+hide:
+  - toc
 ---
 
 # `metaborg-java.sdf3`

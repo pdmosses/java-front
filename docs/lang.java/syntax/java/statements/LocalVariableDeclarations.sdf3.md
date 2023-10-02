@@ -1,5 +1,7 @@
 ---
 title: LocalVariableDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `LocalVariableDeclarations.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: InterfaceDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `InterfaceDeclarations.sdf3`

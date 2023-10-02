@@ -1,5 +1,7 @@
 ---
 title: IntegerLiterals.sdf3
+hide:
+  - toc
 ---
 
 # `IntegerLiterals.sdf3`

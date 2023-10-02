@@ -1,5 +1,7 @@
 ---
 title: CompilationUnits.sdf3
+hide:
+  - toc
 ---
 
 # `CompilationUnits.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: Statements.sdf3
+hide:
+  - toc
 ---
 
 # `Statements.sdf3`

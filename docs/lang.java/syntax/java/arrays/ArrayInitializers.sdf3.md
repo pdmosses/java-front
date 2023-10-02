@@ -1,5 +1,7 @@
 ---
 title: ArrayInitializers.sdf3
+hide:
+  - toc
 ---
 
 # `ArrayInitializers.sdf3`

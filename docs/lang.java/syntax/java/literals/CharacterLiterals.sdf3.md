@@ -1,5 +1,7 @@
 ---
 title: CharacterLiterals.sdf3
+hide:
+  - toc
 ---
 
 # `CharacterLiterals.sdf3`

@@ -1,5 +1,7 @@
 ---
 title: Modifiers.sdf3
+hide:
+  - toc
 ---
 
 # `Modifiers.sdf3`

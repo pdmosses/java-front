@@ -1,5 +1,7 @@
 ---
 title: MethodDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `MethodDeclarations.sdf3`

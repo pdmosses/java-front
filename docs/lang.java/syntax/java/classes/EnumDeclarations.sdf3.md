@@ -1,5 +1,7 @@
 ---
 title: EnumDeclarations.sdf3
+hide:
+  - toc
 ---
 
 # `EnumDeclarations.sdf3`

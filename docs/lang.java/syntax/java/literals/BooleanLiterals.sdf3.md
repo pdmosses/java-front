@@ -1,5 +1,7 @@
 ---
 title: BooleanLiterals.sdf3
+hide:
+  - toc
 ---
 
 # `BooleanLiterals.sdf3`

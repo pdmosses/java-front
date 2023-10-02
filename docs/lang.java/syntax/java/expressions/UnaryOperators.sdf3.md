@@ -1,5 +1,7 @@
 ---
 title: UnaryOperators.sdf3
+hide:
+  - toc
 ---
 
 # `UnaryOperators.sdf3`

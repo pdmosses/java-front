@@ -1,5 +1,7 @@
 ---
 title: Disambiguation.sdf3
+hide:
+  - toc
 ---
 
 # `Disambiguation.sdf3`

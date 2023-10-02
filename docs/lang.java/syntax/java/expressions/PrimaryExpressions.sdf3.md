@@ -1,5 +1,7 @@
 ---
 title: PrimaryExpressions.sdf3
+hide:
+  - toc
 ---
 
 # `PrimaryExpressions.sdf3`

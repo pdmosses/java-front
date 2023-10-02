@@ -1,5 +1,7 @@
 ---
 title: MethodReference.sdf3
+hide:
+  - toc
 ---
 
 # `MethodReference.sdf3`
