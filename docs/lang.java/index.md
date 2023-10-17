@@ -7,7 +7,7 @@ hide:
 
 :simple-github: [pdmosses/java-front/README]
 
-[pdmosses/java-front/README]: https://github.com/pdmosses/java-front/blob/master/README.md "The original file on GitHub"
+[metaborgcube/java-front/README]: https://github.com/metaborgcube/java-front/blob/master/README.md "The original file on GitHub"
 
 > A declarative specification of Java 8's syntax in [Spoofax].
 
