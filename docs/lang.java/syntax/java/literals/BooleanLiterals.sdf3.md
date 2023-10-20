@@ -27,7 +27,7 @@ hide:
 15
 16
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/literals/BooleanLiterals_126_155" id="java/literals/BooleanLiterals_7_36" title="Referenced at ../Main.sdf3 line 8">java/literals/BooleanLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/BooleanLiterals_126_155" id="java/literals/BooleanLiterals_7_36" title="Referenced at ../Main.sdf3 line 8">java/literals/BooleanLiterals</a>
 
 <span class="layout">// 3.10.3. Boolean Literals</span>
 

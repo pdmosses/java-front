@@ -25,18 +25,18 @@ hide:
 13
 14
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/classes/StaticInitializers_227_258" id="java/classes/StaticInitializers_7_38" title="Referenced at ../Main.sdf3 line 11">java/classes/StaticInitializers</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../ClassDeclarations.sdf3/#java/classes/StaticInitializers_285_316" id="java/classes/StaticInitializers_7_38" title="Referenced at ../ClassDeclarations.sdf3 line 13; ../Main.sdf3 line 11">java/classes/StaticInitializers</a>
 
 <span class="layout">// 8.7. Static Initializers</span>
 
 <span class="keyword">imports</span>
-  <a href="../../statements/Blocks.sdf3#java/statements/Blocks_7_29" id="java/statements/Blocks_79_101" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
+  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_7_29" id="java/statements/Blocks_79_101" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="../ClassDeclarations.sdf3#StaticInitializer_1551_1568" id="StaticInitializer_127_144" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>
+  <a href="../ClassDeclarations.sdf3/#StaticInitializer_1551_1568" id="StaticInitializer_127_144" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>
 
 <span class="keyword">context-free syntax</span>
   
-  <a href="../ClassDeclarations.sdf3#StaticInitializer_1551_1568" id="StaticInitializer_171_188" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>.<span class="cons_Constructor"><span id="StaticInit_189_199" title="Not referenced locally, nor via imports">StaticInit</span></span> = &lt;<span class="cons_String">static</span> &lt;<a href="../../statements/Blocks.sdf3#Block_185_190" id="Block_211_216" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>&gt;&gt;
+  <a href="../ClassDeclarations.sdf3/#StaticInitializer_1551_1568" id="StaticInitializer_171_188" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>.<span class="cons_Constructor"><span id="StaticInit_189_199" title="Not referenced locally, nor via imports">StaticInit</span></span> = &lt;<span class="cons_String">static</span> &lt;<a href="../../statements/Blocks.sdf3/#Block_185_190" id="Block_211_216" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>&gt;&gt;
 </code></pre></td></tr></tbody></table></div>

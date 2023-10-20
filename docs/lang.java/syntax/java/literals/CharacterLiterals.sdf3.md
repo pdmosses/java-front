@@ -40,13 +40,13 @@ hide:
 28
 29
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/literals/CharacterLiterals_158_189" id="java/literals/CharacterLiterals_7_38" title="Referenced at ../Main.sdf3 line 9">java/literals/CharacterLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/CharacterLiterals_158_189" id="java/literals/CharacterLiterals_7_38" title="Referenced at ../Main.sdf3 line 9">java/literals/CharacterLiterals</a>
 
 <span class="layout">// 3.10.4. Character Literals</span>
 
 <span class="keyword">imports</span>
-  <a href="../EscapeSequences.sdf3#java/literals/EscapeSequences_7_36" id="java/literals/EscapeSequences_81_110" title="Defined at ../EscapeSequences.sdf3 line 1">java/literals/EscapeSequences</a>
-  <a href="../../lexical/UnicodeEscapes.sdf3#java/lexical/UnicodeEscapes_7_34" id="java/lexical/UnicodeEscapes_113_140" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 1">java/lexical/UnicodeEscapes</a>
+  <a href="../EscapeSequences.sdf3/#java/literals/EscapeSequences_7_36" id="java/literals/EscapeSequences_81_110" title="Defined at ../EscapeSequences.sdf3 line 1">java/literals/EscapeSequences</a>
+  <a href="../../lexical/UnicodeEscapes.sdf3/#java/lexical/UnicodeEscapes_7_34" id="java/lexical/UnicodeEscapes_113_140" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 1">java/lexical/UnicodeEscapes</a>
   
 <span class="keyword">context-free start-symbols</span>
   
@@ -67,6 +67,6 @@ hide:
 <span class="keyword">lexical syntax</span>
 
   <a href="#CharLiteral_298_309" id="CharLiteral_365_376" title="Referenced at line 19">CharLiteral</a> = <span class="cons_Lit">"'"</span> ~[\n\r\'\\] <span class="cons_Lit">"'"</span>
-  <a href="#CharLiteral_298_309" id="CharLiteral_401_412" title="Referenced at line 19">CharLiteral</a> = <span class="cons_Lit">"'"</span> <a href="../EscapeSequences.sdf3#EscapeSeq_119_128" id="EscapeSeq_419_428" title="Defined at ../EscapeSequences.sdf3 line 7, 8">EscapeSeq</a> <span class="cons_Lit">"'"</span>
-  <a href="#CharLiteral_298_309" id="CharLiteral_435_446" title="Referenced at line 19">CharLiteral</a> = <span class="cons_Lit">"'"</span> <a href="../../lexical/UnicodeEscapes.sdf3#UnicodeEscape_71_84" id="UnicodeEscape_453_466" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 7">UnicodeEscape</a> <span class="cons_Lit">"'"</span>
+  <a href="#CharLiteral_298_309" id="CharLiteral_401_412" title="Referenced at line 19">CharLiteral</a> = <span class="cons_Lit">"'"</span> <a href="../EscapeSequences.sdf3/#EscapeSeq_119_128" id="EscapeSeq_419_428" title="Defined at ../EscapeSequences.sdf3 line 7, 8">EscapeSeq</a> <span class="cons_Lit">"'"</span>
+  <a href="#CharLiteral_298_309" id="CharLiteral_435_446" title="Referenced at line 19">CharLiteral</a> = <span class="cons_Lit">"'"</span> <a href="../../lexical/UnicodeEscapes.sdf3/#UnicodeEscape_71_84" id="UnicodeEscape_453_466" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 7">UnicodeEscape</a> <span class="cons_Lit">"'"</span>
 </code></pre></td></tr></tbody></table></div>

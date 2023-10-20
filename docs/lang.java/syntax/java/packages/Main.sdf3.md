@@ -19,12 +19,12 @@ hide:
 7
 8
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3#java/packages/Main_206_224" id="java/packages/Main_7_25" title="Referenced at ../../Main.sdf3 line 13">java/packages/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/packages/Main_206_224" id="java/packages/Main_7_25" title="Referenced at ../../Main.sdf3 line 13">java/packages/Main</a>
 
 <span class="layout">// Chapter 7. Packages</span>
 
 <span class="keyword">imports</span>
-  <a href="../CompilationUnits.sdf3#java/packages/CompilationUnits_7_37" id="java/packages/CompilationUnits_61_91" title="Defined at ../CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
-  <a href="../ImportDeclarations.sdf3#java/packages/ImportDeclarations_7_39" id="java/packages/ImportDeclarations_94_126" title="Defined at ../ImportDeclarations.sdf3 line 1">java/packages/ImportDeclarations</a>
-  <a href="../PackageDeclarations.sdf3#java/packages/PackageDeclarations_7_40" id="java/packages/PackageDeclarations_129_162" title="Defined at ../PackageDeclarations.sdf3 line 1">java/packages/PackageDeclarations</a>
+  <a href="../CompilationUnits.sdf3/#java/packages/CompilationUnits_7_37" id="java/packages/CompilationUnits_61_91" title="Defined at ../CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
+  <a href="../ImportDeclarations.sdf3/#java/packages/ImportDeclarations_7_39" id="java/packages/ImportDeclarations_94_126" title="Defined at ../ImportDeclarations.sdf3 line 1">java/packages/ImportDeclarations</a>
+  <a href="../PackageDeclarations.sdf3/#java/packages/PackageDeclarations_7_40" id="java/packages/PackageDeclarations_129_162" title="Defined at ../PackageDeclarations.sdf3 line 1">java/packages/PackageDeclarations</a>
 </code></pre></td></tr></tbody></table></div>

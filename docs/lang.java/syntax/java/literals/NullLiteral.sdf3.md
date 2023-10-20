@@ -26,7 +26,7 @@ hide:
 14
 15
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/literals/NullLiteral_223_248" id="java/literals/NullLiteral_7_32" title="Referenced at ../Main.sdf3 line 11">java/literals/NullLiteral</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/NullLiteral_223_248" id="java/literals/NullLiteral_7_32" title="Referenced at ../Main.sdf3 line 11">java/literals/NullLiteral</a>
 
 <span class="layout">// 3.10.7. The Null Literal</span>
 

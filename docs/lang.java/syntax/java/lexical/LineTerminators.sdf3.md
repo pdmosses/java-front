@@ -34,17 +34,17 @@ hide:
 22
 23
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/lexical/LineTerminators_144_172" id="java/lexical/LineTerminators_7_35" title="Referenced at ../Main.sdf3 line 9">java/lexical/LineTerminators</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Comments.sdf3/#java/lexical/LineTerminators_59_87" id="java/lexical/LineTerminators_7_35" title="Referenced at ../Comments.sdf3 line 7; ../Main.sdf3 line 9; ../../Test.sdf3 line 10">java/lexical/LineTerminators</a>
 
 <span class="layout">// 3.4. Line Terminators</span>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="../Comments.sdf3#LineTerminator_193_207" id="LineTerminator_81_95" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = [\n]
-  <a href="../Comments.sdf3#LineTerminator_193_207" id="LineTerminator_105_119" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = [\r] [\n]
-  <a href="../Comments.sdf3#LineTerminator_193_207" id="LineTerminator_134_148" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = <a href="#CarriageReturn_197_211" id="CarriageReturn_151_165" title="Defined at line 11">CarriageReturn</a>
-  <a href="../Comments.sdf3#LineTerminator_193_207" id="LineTerminator_168_182" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = <a href="#EndOfFile_287_296" id="EndOfFile_185_194" title="Defined at line 19">EndOfFile</a>
-  <a href="#CarriageReturn_244_258" id="CarriageReturn_197_211" title="Referenced at line 15">CarriageReturn</a> = [\r]
+  <a href="../Comments.sdf3/#LineTerminator_193_207" id="LineTerminator_81_95" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = [\n]
+  <a href="../Comments.sdf3/#LineTerminator_193_207" id="LineTerminator_105_119" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = [\r] [\n]
+  <a href="../Comments.sdf3/#LineTerminator_193_207" id="LineTerminator_134_148" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = <a href="#CarriageReturn_197_211" id="CarriageReturn_151_165" title="Defined at line 11">CarriageReturn</a>
+  <a href="../Comments.sdf3/#LineTerminator_193_207" id="LineTerminator_168_182" title="Referenced at ../Comments.sdf3 line 16">LineTerminator</a> = <a href="#EndOfFile_287_296" id="EndOfFile_185_194" title="Defined at line 19">EndOfFile</a>
+  <a href="#CarriageReturn_151_165" id="CarriageReturn_197_211" title="Referenced at line 9, 15">CarriageReturn</a> = [\r]
 
 <span class="keyword">lexical restrictions</span>
 
@@ -52,7 +52,7 @@ hide:
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="#EndOfFile_324_333" id="EndOfFile_287_296" title="Referenced at line 23">EndOfFile</a> =
+  <a href="#EndOfFile_185_194" id="EndOfFile_287_296" title="Referenced at line 10, 23">EndOfFile</a> =
 
 <span class="keyword">lexical restrictions</span>
 

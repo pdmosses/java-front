@@ -62,7 +62,7 @@ hide:
 50
 51
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3#java/literals/IntegerLiterals_56_85" id="java/literals/IntegerLiterals_7_36" title="Referenced at ../Main.sdf3 line 6">java/literals/IntegerLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/IntegerLiterals_56_85" id="java/literals/IntegerLiterals_7_36" title="Referenced at ../Main.sdf3 line 6">java/literals/IntegerLiterals</a>
 
 <span class="layout">// 3.10.1. Integer Literals</span>
 
@@ -83,23 +83,23 @@ hide:
   
 <span class="keyword">lexical sorts</span>
 
-  <a href="#DeciLiteral_946_957" id="DeciLiteral_352_363" title="Referenced at line 48">DeciLiteral</a>
-  <a href="#HexaLiteral_969_980" id="HexaLiteral_366_377" title="Referenced at line 49">HexaLiteral</a>
-  <a href="#OctaLiteral_992_1003" id="OctaLiteral_380_391" title="Referenced at line 50">OctaLiteral</a>
-  <a href="#BinLiteral_1015_1025" id="BinLiteral_394_404" title="Referenced at line 51">BinLiteral</a>
+  <a href="#DeciLiteral_188_199" id="DeciLiteral_352_363" title="Referenced at line 15, 48">DeciLiteral</a>
+  <a href="#HexaLiteral_229_240" id="HexaLiteral_366_377" title="Referenced at line 16, 49">HexaLiteral</a>
+  <a href="#OctaLiteral_270_281" id="OctaLiteral_380_391" title="Referenced at line 17, 50">OctaLiteral</a>
+  <a href="#BinLiteral_311_321" id="BinLiteral_394_404" title="Referenced at line 18, 51">BinLiteral</a>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="#DeciLiteral_946_957" id="DeciLiteral_424_435" title="Referenced at line 48">DeciLiteral</a> = <a href="#DeciNumeral_560_571" id="DeciNumeral_438_449" title="Defined at line 33, 34, 35">DeciNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
-  <a href="#HexaLiteral_969_980" id="HexaLiteral_458_469" title="Referenced at line 49">HexaLiteral</a> = <a href="#HexaNumeral_639_650" id="HexaNumeral_472_483" title="Defined at line 36">HexaNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
-  <a href="#OctaLiteral_992_1003" id="OctaLiteral_492_503" title="Referenced at line 50">OctaLiteral</a> = <a href="#OctaNumeral_691_702" id="OctaNumeral_506_517" title="Defined at line 37">OctaNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
-  <a href="#BinLiteral_1015_1025" id="BinLiteral_526_536" title="Referenced at line 51">BinLiteral</a>  = <a href="#BinNumeral_726_736" id="BinNumeral_540_550" title="Defined at line 38">BinNumeral</a>  [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
-  <a href="#DeciNumeral_839_850" id="DeciNumeral_560_571" title="Referenced at line 44">DeciNumeral</a> = <span class="cons_Lit">"0"</span>
-  <a href="#DeciNumeral_839_850" id="DeciNumeral_580_591" title="Referenced at line 44">DeciNumeral</a> = [<span class="cons_Regular">1</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>\_]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]
-  <a href="#DeciNumeral_839_850" id="DeciNumeral_617_628" title="Referenced at line 44">DeciNumeral</a> = [<span class="cons_Regular">1</span>-<span class="cons_Regular">9</span>]
-  <a href="#HexaNumeral_869_880" id="HexaNumeral_639_650" title="Referenced at line 45">HexaNumeral</a> = [<span class="cons_Regular">0</span>] [<span class="cons_Regular">x</span><span class="cons_Regular">X</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>\_]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
-  <a href="#OctaNumeral_899_910" id="OctaNumeral_691_702" title="Referenced at line 46">OctaNumeral</a> = [<span class="cons_Regular">0</span>] [\_<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
-  <a href="#BinNumeral_923_933" id="BinNumeral_726_736" title="Referenced at line 47">BinNumeral</a>  = <span class="cons_Lit">"0"</span> [<span class="cons_Regular">b</span><span class="cons_Regular">B</span>] <a href="#BinDigits_761_770" id="BinDigits_749_758" title="Defined at line 39, 40">BinDigits</a>
+  <a href="#DeciLiteral_188_199" id="DeciLiteral_424_435" title="Referenced at line 15, 48">DeciLiteral</a> = <a href="#DeciNumeral_560_571" id="DeciNumeral_438_449" title="Defined at line 33, 34, 35">DeciNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
+  <a href="#HexaLiteral_229_240" id="HexaLiteral_458_469" title="Referenced at line 16, 49">HexaLiteral</a> = <a href="#HexaNumeral_639_650" id="HexaNumeral_472_483" title="Defined at line 36">HexaNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
+  <a href="#OctaLiteral_270_281" id="OctaLiteral_492_503" title="Referenced at line 17, 50">OctaLiteral</a> = <a href="#OctaNumeral_691_702" id="OctaNumeral_506_517" title="Defined at line 37">OctaNumeral</a> [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
+  <a href="#BinLiteral_311_321" id="BinLiteral_526_536" title="Referenced at line 18, 51">BinLiteral</a>  = <a href="#BinNumeral_726_736" id="BinNumeral_540_550" title="Defined at line 38">BinNumeral</a>  [<span class="cons_Regular">l</span><span class="cons_Regular">L</span>]?
+  <a href="#DeciNumeral_438_449" id="DeciNumeral_560_571" title="Referenced at line 29, 44">DeciNumeral</a> = <span class="cons_Lit">"0"</span>
+  <a href="#DeciNumeral_438_449" id="DeciNumeral_580_591" title="Referenced at line 29, 44">DeciNumeral</a> = [<span class="cons_Regular">1</span>-<span class="cons_Regular">9</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>\_]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span>]
+  <a href="#DeciNumeral_438_449" id="DeciNumeral_617_628" title="Referenced at line 29, 44">DeciNumeral</a> = [<span class="cons_Regular">1</span>-<span class="cons_Regular">9</span>]
+  <a href="#HexaNumeral_472_483" id="HexaNumeral_639_650" title="Referenced at line 30, 45">HexaNumeral</a> = [<span class="cons_Regular">0</span>] [<span class="cons_Regular">x</span><span class="cons_Regular">X</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>\_]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
+  <a href="#OctaNumeral_506_517" id="OctaNumeral_691_702" title="Referenced at line 31, 46">OctaNumeral</a> = [<span class="cons_Regular">0</span>] [\_<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]* [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
+  <a href="#BinNumeral_540_550" id="BinNumeral_726_736" title="Referenced at line 32, 47">BinNumeral</a>  = <span class="cons_Lit">"0"</span> [<span class="cons_Regular">b</span><span class="cons_Regular">B</span>] <a href="#BinDigits_761_770" id="BinDigits_749_758" title="Defined at line 39, 40">BinDigits</a>
   <a href="#BinDigits_749_758" id="BinDigits_761_770" title="Referenced at line 38">BinDigits</a>   = [<span class="cons_Regular">0</span><span class="cons_Regular">1</span>]
   <a href="#BinDigits_749_758" id="BinDigits_782_791" title="Referenced at line 38">BinDigits</a>   = [<span class="cons_Regular">0</span><span class="cons_Regular">1</span>] [<span class="cons_Regular">0</span><span class="cons_Regular">1</span>\_]* [<span class="cons_Regular">0</span><span class="cons_Regular">1</span>]
 
