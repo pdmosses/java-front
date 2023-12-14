@@ -37,30 +37,39 @@ hide:
 25
 26
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/literals/Main_167_185" id="java/literals/Main_7_25" title="Referenced at ../../Main.sdf3 line 11; ../../expressions/PrimaryExpressions.sdf3 line 6">java/literals/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/literals/Main_1_8" title="Multi-file references" data-urls="../../Main.sdf3/#java/literals/Main_11_3 line 11; ../../expressions/PrimaryExpressions.sdf3/#java/literals/Main_6_3 line 6">java/literals/Main</button>
 
 <span class="layout">// 3.10. Literals</span>
 
 <span class="keyword">imports</span>
-  <a href="../IntegerLiterals.sdf3/#java/literals/IntegerLiterals_7_36" id="java/literals/IntegerLiterals_56_85" title="Defined at ../IntegerLiterals.sdf3 line 1">java/literals/IntegerLiterals</a>
-  <a href="../FloatingPointLiterals.sdf3/#java/literals/FloatingPointLiterals_7_42" id="java/literals/FloatingPointLiterals_88_123" title="Defined at ../FloatingPointLiterals.sdf3 line 1">java/literals/FloatingPointLiterals</a>
-  <a href="../BooleanLiterals.sdf3/#java/literals/BooleanLiterals_7_36" id="java/literals/BooleanLiterals_126_155" title="Defined at ../BooleanLiterals.sdf3 line 1">java/literals/BooleanLiterals</a>
-  <a href="../CharacterLiterals.sdf3/#java/literals/CharacterLiterals_7_38" id="java/literals/CharacterLiterals_158_189" title="Defined at ../CharacterLiterals.sdf3 line 1">java/literals/CharacterLiterals</a>
-  <a href="../StringLiterals.sdf3/#java/literals/StringLiterals_7_35" id="java/literals/StringLiterals_192_220" title="Defined at ../StringLiterals.sdf3 line 1">java/literals/StringLiterals</a>
-  <a href="../NullLiteral.sdf3/#java/literals/NullLiteral_7_32" id="java/literals/NullLiteral_223_248" title="Defined at ../NullLiteral.sdf3 line 1">java/literals/NullLiteral</a>
+  <a href="../IntegerLiterals.sdf3/#java/literals/IntegerLiterals_1_8" id="java/literals/IntegerLiterals_6_3" title="Defined at ../IntegerLiterals.sdf3 line 1">java/literals/IntegerLiterals</a>
+  <a href="../FloatingPointLiterals.sdf3/#java/literals/FloatingPointLiterals_1_8" id="java/literals/FloatingPointLiterals_7_3" title="Defined at ../FloatingPointLiterals.sdf3 line 1">java/literals/FloatingPointLiterals</a>
+  <a href="../BooleanLiterals.sdf3/#java/literals/BooleanLiterals_1_8" id="java/literals/BooleanLiterals_8_3" title="Defined at ../BooleanLiterals.sdf3 line 1">java/literals/BooleanLiterals</a>
+  <a href="../CharacterLiterals.sdf3/#java/literals/CharacterLiterals_1_8" id="java/literals/CharacterLiterals_9_3" title="Defined at ../CharacterLiterals.sdf3 line 1">java/literals/CharacterLiterals</a>
+  <a href="../StringLiterals.sdf3/#java/literals/StringLiterals_1_8" id="java/literals/StringLiterals_10_3" title="Defined at ../StringLiterals.sdf3 line 1">java/literals/StringLiterals</a>
+  <a href="../NullLiteral.sdf3/#java/literals/NullLiteral_1_8" id="java/literals/NullLiteral_11_3" title="Defined at ../NullLiteral.sdf3 line 1">java/literals/NullLiteral</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_274_281" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_15_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a>
 
 <span class="keyword">context-free syntax</span>
   
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_308_315" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../IntegerLiterals.sdf3/#IntLiteral_135_145" id="IntLiteral_318_328" title="Defined at ../IntegerLiterals.sdf3 line 11, 15, 16, 17, 18">IntLiteral</a>
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_331_338" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../FloatingPointLiterals.sdf3/#FloatLiteral_150_162" id="FloatLiteral_341_353" title="Defined at ../FloatingPointLiterals.sdf3 line 11, 15, 16, 17, 18">FloatLiteral</a>
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_356_363" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../BooleanLiterals.sdf3/#BoolLiteral_136_147" id="BoolLiteral_366_377" title="Defined at ../BooleanLiterals.sdf3 line 11, 15, 16">BoolLiteral</a>
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_380_387" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../CharacterLiterals.sdf3/#CharacterLiteral_222_238" id="CharacterLiteral_390_406" title="Defined at ../CharacterLiterals.sdf3 line 15, 19">CharacterLiteral</a>
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_409_416" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../StringLiterals.sdf3/#StringLiteral_205_218" id="StringLiteral_419_432" title="Defined at ../StringLiterals.sdf3 line 15, 19">StringLiteral</a>
-  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_234_241" id="Literal_435_442" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../NullLiteral.sdf3/#NullLiteral_130_141" id="NullLiteral_445_456" title="Defined at ../NullLiteral.sdf3 line 11, 15">NullLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_19_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../IntegerLiterals.sdf3/#IntLiteral_11_3" id="IntLiteral_19_13" title="Defined at ../IntegerLiterals.sdf3 line 11, 15, 16, 17, 18">IntLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_20_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../FloatingPointLiterals.sdf3/#FloatLiteral_11_3" id="FloatLiteral_20_13" title="Defined at ../FloatingPointLiterals.sdf3 line 11, 15, 16, 17, 18">FloatLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_21_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../BooleanLiterals.sdf3/#BoolLiteral_11_3" id="BoolLiteral_21_13" title="Defined at ../BooleanLiterals.sdf3 line 11, 15, 16">BoolLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_22_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../CharacterLiterals.sdf3/#CharacterLiteral_15_3" id="CharacterLiteral_22_13" title="Defined at ../CharacterLiterals.sdf3 line 15, 19">CharacterLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_23_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../StringLiterals.sdf3/#StringLiteral_15_3" id="StringLiteral_23_13" title="Defined at ../StringLiterals.sdf3 line 15, 19">StringLiteral</a>
+  <a href="../../expressions/PrimaryExpressions.sdf3/#Literal_17_16" id="Literal_24_3" title="Referenced at ../../expressions/PrimaryExpressions.sdf3 line 17">Literal</a> = <a href="../NullLiteral.sdf3/#NullLiteral_11_3" id="NullLiteral_24_13" title="Defined at ../NullLiteral.sdf3 line 11, 15">NullLiteral</a>
     
   
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

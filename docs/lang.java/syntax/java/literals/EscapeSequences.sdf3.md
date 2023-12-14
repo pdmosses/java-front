@@ -28,21 +28,30 @@ hide:
 16
 17
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../CharacterLiterals.sdf3/#java/literals/EscapeSequences_81_110" id="java/literals/EscapeSequences_7_36" title="Referenced at ../CharacterLiterals.sdf3 line 6; ../StringLiterals.sdf3 line 6">java/literals/EscapeSequences</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/literals/EscapeSequences_1_8" title="Multi-file references" data-urls="../CharacterLiterals.sdf3/#java/literals/EscapeSequences_6_3 line 6; ../StringLiterals.sdf3/#java/literals/EscapeSequences_6_3 line 6">java/literals/EscapeSequences</button>
 
 <span class="layout">// 3.10.6. Escape Sequences for Character and String Literals</span>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="../CharacterLiterals.sdf3/#EscapeSeq_419_428" id="EscapeSeq_119_128" title="Referenced at ../CharacterLiterals.sdf3 line 28; ../StringLiterals.sdf3 line 29">EscapeSeq</a>.<span class="cons_Constructor"><span id="NamedEscape_129_140" title="Not referenced locally, nor via imports">NamedEscape</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">b</span><span class="cons_Regular">t</span><span class="cons_Regular">n</span><span class="cons_Regular">f</span><span class="cons_Regular">r</span>\"\'\\]
-  <a href="../CharacterLiterals.sdf3/#EscapeSeq_419_428" id="EscapeSeq_164_173" title="Referenced at ../CharacterLiterals.sdf3 line 28; ../StringLiterals.sdf3 line 29">EscapeSeq</a> = <a href="#OctalEscape_190_201" id="OctalEscape_176_187" title="Defined at line 9, 10, 11, 12">OctalEscape</a>
-  <a href="#OctalEscape_176_187" id="OctalEscape_190_201" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape1_202_214" title="Not referenced locally, nor via imports">OctalEscape1</span></span> = <span class="cons_Lit">"\\"</span> <a href="#LastOcta_380_388" id="LastOcta_222_230" title="Defined at line 13">LastOcta</a>
-  <a href="#OctalEscape_176_187" id="OctalEscape_233_244" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape2_245_257" title="Not referenced locally, nor via imports">OctalEscape2</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">0</span>-<span class="cons_Regular">3</span>] <a href="#LastOcta_380_388" id="LastOcta_271_279" title="Defined at line 13">LastOcta</a>
-  <a href="#OctalEscape_176_187" id="OctalEscape_282_293" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape2_294_306" title="Not referenced locally, nor via imports">OctalEscape2</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">4</span>-<span class="cons_Regular">7</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
-  <a href="#OctalEscape_176_187" id="OctalEscape_328_339" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape3_340_352" title="Not referenced locally, nor via imports">OctalEscape3</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">0</span>-<span class="cons_Regular">3</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
-  <a href="#LastOcta_222_230" id="LastOcta_380_388" title="Referenced at line 9, 10, 17">LastOcta</a> = [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
+  <button class="modal-open" id="EscapeSeq_7_3" title="Multi-file references" data-urls="../CharacterLiterals.sdf3/#EscapeSeq_28_21 line 28; ../StringLiterals.sdf3/#EscapeSeq_29_16 line 29">EscapeSeq</button>.<span class="cons_Constructor"><span id="NamedEscape_7_13" title="Not referenced">NamedEscape</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">b</span><span class="cons_Regular">t</span><span class="cons_Regular">n</span><span class="cons_Regular">f</span><span class="cons_Regular">r</span>\"\'\\]
+  <button class="modal-open" id="EscapeSeq_8_3" title="Multi-file references" data-urls="../CharacterLiterals.sdf3/#EscapeSeq_28_21 line 28; ../StringLiterals.sdf3/#EscapeSeq_29_16 line 29">EscapeSeq</button> = <a href="#OctalEscape_9_3" id="OctalEscape_8_15" title="Defined at line 9, 10, 11, 12">OctalEscape</a>
+  <a href="#OctalEscape_8_15" id="OctalEscape_9_3" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape1_9_15" title="Not referenced">OctalEscape1</span></span> = <span class="cons_Lit">"\\"</span> <a href="#LastOcta_13_3" id="LastOcta_9_35" title="Defined at line 13">LastOcta</a>
+  <a href="#OctalEscape_8_15" id="OctalEscape_10_3" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape2_10_15" title="Not referenced">OctalEscape2</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">0</span>-<span class="cons_Regular">3</span>] <a href="#LastOcta_13_3" id="LastOcta_10_41" title="Defined at line 13">LastOcta</a>
+  <a href="#OctalEscape_8_15" id="OctalEscape_11_3" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape2_11_15" title="Not referenced">OctalEscape2</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">4</span>-<span class="cons_Regular">7</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
+  <a href="#OctalEscape_8_15" id="OctalEscape_12_3" title="Referenced at line 8">OctalEscape</a>.<span class="cons_Constructor"><span id="OctalEscape3_12_15" title="Not referenced">OctalEscape3</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">0</span>-<span class="cons_Regular">3</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
+  <a href="#LastOcta_9_35" id="LastOcta_13_3" title="Referenced at line 9, 10, 17">LastOcta</a> = [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
 
 <span class="keyword">lexical restrictions</span>
 
-  <a href="#LastOcta_380_388" id="LastOcta_422_430" title="Defined at line 13">LastOcta</a> -/- [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
+  <a href="#LastOcta_13_3" id="LastOcta_17_3" title="Defined at line 13">LastOcta</a> -/- [<span class="cons_Regular">0</span>-<span class="cons_Regular">7</span>]
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

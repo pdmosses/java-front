@@ -32,25 +32,34 @@ hide:
 20
 21
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../CompilationUnits.sdf3/#java/packages/ImportDeclarations_113_145" id="java/packages/ImportDeclarations_7_39" title="Referenced at ../CompilationUnits.sdf3 line 7; ../Main.sdf3 line 7">java/packages/ImportDeclarations</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/packages/ImportDeclarations_1_8" title="Multi-file references" data-urls="../CompilationUnits.sdf3/#java/packages/ImportDeclarations_7_3 line 7; ../Main.sdf3/#java/packages/ImportDeclarations_7_3 line 7">java/packages/ImportDeclarations</button>
 
 <span class="layout">// 7.5. Import Declarations</span>
 
 <span class="keyword">imports</span>
-  <a href="../../names/Names.sdf3/#java/names/Names_7_23" id="java/names/Names_80_96" title="Defined at ../../names/Names.sdf3 line 1">java/names/Names</a>
-  <a href="../../lexical/Identifiers.sdf3/#java/lexical/Identifiers_7_31" id="java/lexical/Identifiers_99_123" title="Defined at ../../lexical/Identifiers.sdf3 line 1">java/lexical/Identifiers</a>
+  <a href="../../names/Names.sdf3/#java/names/Names_1_8" id="java/names/Names_6_3" title="Defined at ../../names/Names.sdf3 line 1">java/names/Names</a>
+  <a href="../../lexical/Identifiers.sdf3/#java/lexical/Identifiers_1_8" id="java/lexical/Identifiers_7_3" title="Defined at ../../lexical/Identifiers.sdf3 line 1">java/lexical/Identifiers</a>
 
 <span class="keyword">context-free sorts</span>
 
-  <a href="../CompilationUnits.sdf3/#ImportDeclaration_310_327" id="ImportDeclaration_147_164" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>
+  <a href="../CompilationUnits.sdf3/#ImportDeclaration_20_5" id="ImportDeclaration_11_3" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>
 
 <span class="keyword">context-free syntax</span>
   
-  <a href="../CompilationUnits.sdf3/#ImportDeclaration_310_327" id="ImportDeclaration_191_208" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="SingleTypeImport_209_225" title="Not referenced locally, nor via imports">SingleTypeImport</span></span>     = &lt;<span class="cons_String">import</span> &lt;<a href="../../names/Names.sdf3/#TypeName_145_153" id="TypeName_241_249" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">;</span>&gt;
-  <a href="../CompilationUnits.sdf3/#ImportDeclaration_310_327" id="ImportDeclaration_255_272" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="TypeImportOnDemand_273_291" title="Not referenced locally, nor via imports">TypeImportOnDemand</span></span>   = &lt;<span class="cons_String">import</span> &lt;<a href="../../names/Names.sdf3/#PackageOrTypeName_156_173" id="PackageOrTypeName_305_322" title="Defined at ../../names/Names.sdf3 line 12, 23, 24">PackageOrTypeName</a>&gt;<span class="cons_String">.*;</span>&gt;
-  <a href="../CompilationUnits.sdf3/#ImportDeclaration_310_327" id="ImportDeclaration_330_347" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="SingleStaticImport_348_366" title="Not referenced locally, nor via imports">SingleStaticImport</span></span>   = &lt;<span class="cons_String">import</span> <span class="cons_String">static</span> &lt;<a href="../../names/Names.sdf3/#TypeName_145_153" id="TypeName_387_395" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">.</span>&lt;<a href="../../lexical/Identifiers.sdf3/#Id_141_143" id="Id_398_400" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a>&gt;<span class="cons_String">;</span>&gt;
-  <a href="../CompilationUnits.sdf3/#ImportDeclaration_310_327" id="ImportDeclaration_406_423" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="StaticImportOnDemand_424_444" title="Not referenced locally, nor via imports">StaticImportOnDemand</span></span> = &lt;<span class="cons_String">import</span> <span class="cons_String">static</span> &lt;<a href="../../names/Names.sdf3/#TypeName_145_153" id="TypeName_463_471" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">.*;</span>&gt;  
+  <a href="../CompilationUnits.sdf3/#ImportDeclaration_20_5" id="ImportDeclaration_15_3" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="SingleTypeImport_15_21" title="Not referenced">SingleTypeImport</span></span>     = &lt;<span class="cons_String">import</span> &lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_15_53" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">;</span>&gt;
+  <a href="../CompilationUnits.sdf3/#ImportDeclaration_20_5" id="ImportDeclaration_16_3" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="TypeImportOnDemand_16_21" title="Not referenced">TypeImportOnDemand</span></span>   = &lt;<span class="cons_String">import</span> &lt;<a href="../../names/Names.sdf3/#PackageOrTypeName_12_3" id="PackageOrTypeName_16_53" title="Defined at ../../names/Names.sdf3 line 12, 23, 24">PackageOrTypeName</a>&gt;<span class="cons_String">.*;</span>&gt;
+  <a href="../CompilationUnits.sdf3/#ImportDeclaration_20_5" id="ImportDeclaration_17_3" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="SingleStaticImport_17_21" title="Not referenced">SingleStaticImport</span></span>   = &lt;<span class="cons_String">import</span> <span class="cons_String">static</span> &lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_17_60" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">.</span>&lt;<a href="../../lexical/Identifiers.sdf3/#Id_15_3" id="Id_17_71" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a>&gt;<span class="cons_String">;</span>&gt;
+  <a href="../CompilationUnits.sdf3/#ImportDeclaration_20_5" id="ImportDeclaration_18_3" title="Referenced at ../CompilationUnits.sdf3 line 20">ImportDeclaration</a>.<span class="cons_Constructor"><span id="StaticImportOnDemand_18_21" title="Not referenced">StaticImportOnDemand</span></span> = &lt;<span class="cons_String">import</span> <span class="cons_String">static</span> &lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_18_60" title="Defined at ../../names/Names.sdf3 line 11, 21, 22">TypeName</a>&gt;<span class="cons_String">.*;</span>&gt;  
 
 <span class="keyword">template options</span>
   <span class="keyword">tokenize</span> : ".;" 
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

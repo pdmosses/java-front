@@ -22,7 +22,7 @@ hide:
 10
 11
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/lexical/WhiteSpace_230_253" id="java/lexical/WhiteSpace_7_30" title="Referenced at ../Main.sdf3 line 12">java/lexical/WhiteSpace</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/lexical/WhiteSpace_12_3" id="java/lexical/WhiteSpace_1_8" title="Referenced at ../Main.sdf3 line 12">java/lexical/WhiteSpace</a>
 
 <span class="layout">// 3.6. White Space</span>
 
@@ -34,3 +34,12 @@ hide:
 
   <span class="keyword">LAYOUT</span>? -/- [\ \t<span class="cons_Decimal">\12</span>\n\r]
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

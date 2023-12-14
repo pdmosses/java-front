@@ -19,12 +19,21 @@ hide:
 7
 8
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/packages/Main_206_224" id="java/packages/Main_7_25" title="Referenced at ../../Main.sdf3 line 13">java/packages/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/packages/Main_13_3" id="java/packages/Main_1_8" title="Referenced at ../../Main.sdf3 line 13">java/packages/Main</a>
 
 <span class="layout">// Chapter 7. Packages</span>
 
 <span class="keyword">imports</span>
-  <a href="../CompilationUnits.sdf3/#java/packages/CompilationUnits_7_37" id="java/packages/CompilationUnits_61_91" title="Defined at ../CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
-  <a href="../ImportDeclarations.sdf3/#java/packages/ImportDeclarations_7_39" id="java/packages/ImportDeclarations_94_126" title="Defined at ../ImportDeclarations.sdf3 line 1">java/packages/ImportDeclarations</a>
-  <a href="../PackageDeclarations.sdf3/#java/packages/PackageDeclarations_7_40" id="java/packages/PackageDeclarations_129_162" title="Defined at ../PackageDeclarations.sdf3 line 1">java/packages/PackageDeclarations</a>
+  <a href="../CompilationUnits.sdf3/#java/packages/CompilationUnits_1_8" id="java/packages/CompilationUnits_6_3" title="Defined at ../CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
+  <a href="../ImportDeclarations.sdf3/#java/packages/ImportDeclarations_1_8" id="java/packages/ImportDeclarations_7_3" title="Defined at ../ImportDeclarations.sdf3 line 1">java/packages/ImportDeclarations</a>
+  <a href="../PackageDeclarations.sdf3/#java/packages/PackageDeclarations_1_8" id="java/packages/PackageDeclarations_8_3" title="Defined at ../PackageDeclarations.sdf3 line 1">java/packages/PackageDeclarations</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

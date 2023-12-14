@@ -24,17 +24,26 @@ hide:
 12
 13
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Disambiguation.sdf3/#java/expressions/Postfix_91_115" id="java/expressions/Postfix_7_31" title="Referenced at ../Disambiguation.sdf3 line 5; ../Main.sdf3 line 14">java/expressions/Postfix</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/expressions/Postfix_1_8" title="Multi-file references" data-urls="../Disambiguation.sdf3/#java/expressions/Postfix_5_3 line 5; ../Main.sdf3/#java/expressions/Postfix_14_3 line 14">java/expressions/Postfix</button>
 
 <span class="layout">// 15.14. Postfix Expressions</span>
 
 <span class="keyword">imports</span>
-  <a href="../../names/Names.sdf3/#java/names/Names_7_23" id="java/names/Names_74_90" title="Defined at ../../names/Names.sdf3 line 1">java/names/Names</a>
-  <a href="../Main.sdf3/#java/expressions/Main_7_28" id="java/expressions/Main_93_114" title="Defined at ../Main.sdf3 line 1">java/expressions/Main</a>
+  <a href="../../names/Names.sdf3/#java/names/Names_1_8" id="java/names/Names_6_3" title="Defined at ../../names/Names.sdf3 line 1">java/names/Names</a>
+  <a href="../Main.sdf3/#java/expressions/Main_1_8" id="java/expressions/Main_7_3" title="Defined at ../Main.sdf3 line 1">java/expressions/Main</a>
 
 <span class="keyword">context-free syntax</span>
   
-  <a href="#Expression_165_175" id="Expression_141_151" title="Referenced at line 11, 12">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#PostIncr_605_613" id="PostIncr_152_160" title="Referenced at ../Disambiguation.sdf3 line 27, 60">PostIncr</a></span> = &lt;&lt;<a href="#Expression_141_151" id="Expression_165_175" title="Defined at line 11, 12, 13">Expression</a>&gt;<span class="cons_String">++</span>&gt;
-  <a href="#Expression_165_175" id="Expression_182_192" title="Referenced at line 11, 12">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#PostDecr_630_638" id="PostDecr_193_201" title="Referenced at ../Disambiguation.sdf3 line 28, 61">PostDecr</a></span> = &lt;&lt;<a href="#Expression_141_151" id="Expression_206_216" title="Defined at line 11, 12, 13">Expression</a>&gt;<span class="cons_String">--</span>&gt;
-  <a href="#Expression_165_175" id="Expression_223_233" title="Referenced at line 11, 12">Expression</a> = <a href="../../names/Names.sdf3/#ExpressionName_176_190" id="ExpressionName_236_250" title="Defined at ../../names/Names.sdf3 line 13, 25, 26">ExpressionName</a>
+  <a href="#Expression_11_27" id="Expression_11_3" title="Referenced at line 11, 12">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#PostIncr_27_16" id="PostIncr_11_14" title="Referenced at ../Disambiguation.sdf3 line 27, 60">PostIncr</a></span> = &lt;&lt;<a href="#Expression_11_3" id="Expression_11_27" title="Defined at line 11, 12, 13">Expression</a>&gt;<span class="cons_String">++</span>&gt;
+  <a href="#Expression_11_27" id="Expression_12_3" title="Referenced at line 11, 12">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#PostDecr_28_16" id="PostDecr_12_14" title="Referenced at ../Disambiguation.sdf3 line 28, 61">PostDecr</a></span> = &lt;&lt;<a href="#Expression_11_3" id="Expression_12_27" title="Defined at line 11, 12, 13">Expression</a>&gt;<span class="cons_String">--</span>&gt;
+  <a href="#Expression_11_27" id="Expression_13_3" title="Referenced at line 11, 12">Expression</a> = <a href="../../names/Names.sdf3/#ExpressionName_13_3" id="ExpressionName_13_16" title="Defined at ../../names/Names.sdf3 line 13, 25, 26">ExpressionName</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

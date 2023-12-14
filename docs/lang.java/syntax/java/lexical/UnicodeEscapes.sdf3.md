@@ -18,11 +18,20 @@ hide:
 6
 7
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/lexical/UnicodeEscapes_200_227" id="java/lexical/UnicodeEscapes_7_34" title="Referenced at ../Main.sdf3 line 11; ../../literals/CharacterLiterals.sdf3 line 7; ../../literals/StringLiterals.sdf3 line 7">java/lexical/UnicodeEscapes</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/lexical/UnicodeEscapes_1_8" title="Multi-file references" data-urls="../Main.sdf3/#java/lexical/UnicodeEscapes_11_3 line 11; ../../literals/CharacterLiterals.sdf3/#java/lexical/UnicodeEscapes_7_3 line 7; ../../literals/StringLiterals.sdf3/#java/lexical/UnicodeEscapes_7_3 line 7">java/lexical/UnicodeEscapes</button>
 
 <span class="layout">// 3.3. Unicode Escapes</span>
 
 <span class="keyword">syntax</span>
 
-  <a href="../../literals/CharacterLiterals.sdf3/#UnicodeEscape_453_466" id="UnicodeEscape_71_84" title="Referenced at ../../literals/CharacterLiterals.sdf3 line 29; ../../literals/StringLiterals.sdf3 line 28">UnicodeEscape</a>.<span class="cons_Constructor"><span id="UnicodeEscape_85_98" title="Not referenced locally, nor via imports">UnicodeEscape</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">u</span>]+ [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
+  <button class="modal-open" id="UnicodeEscape_7_3" title="Multi-file references" data-urls="../../literals/CharacterLiterals.sdf3/#UnicodeEscape_29_21 line 29; ../../literals/StringLiterals.sdf3/#UnicodeEscape_28_16 line 28">UnicodeEscape</button>.<span class="cons_Constructor"><span id="UnicodeEscape_7_17" title="Not referenced">UnicodeEscape</span></span> = <span class="cons_Lit">"\\"</span> [<span class="cons_Regular">u</span>]+ [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>] [<span class="cons_Regular">0</span>-<span class="cons_Regular">9</span><span class="cons_Regular">a</span>-<span class="cons_Regular">f</span><span class="cons_Regular">A</span>-<span class="cons_Regular">F</span>]
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

@@ -32,25 +32,34 @@ hide:
 20
 21
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../FieldAccess.sdf3/#java/expressions/Main_129_150" id="java/expressions/Main_7_28" title="Referenced at ../FieldAccess.sdf3 line 8; ../Postfix.sdf3 line 7; ../../Main.sdf3 line 16; ../../classes/ConstructorDeclarations.sdf3 line 13; ../../classes/EnumDeclarations.sdf3 line 9; ../../classes/FieldDeclarations.sdf3 line 13; ../../interfaces/Annotations.sdf3 line 8; ../../statements/Statements.sdf3 line 12">java/expressions/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/expressions/Main_1_8" title="Multi-file references" data-urls="../FieldAccess.sdf3/#java/expressions/Main_8_3 line 8; ../Postfix.sdf3/#java/expressions/Main_7_3 line 7; ../../Main.sdf3/#java/expressions/Main_16_3 line 16; ../../classes/ConstructorDeclarations.sdf3/#java/expressions/Main_13_3 line 13; ../../classes/EnumDeclarations.sdf3/#java/expressions/Main_9_3 line 9; ../../classes/FieldDeclarations.sdf3/#java/expressions/Main_13_3 line 13; ../../interfaces/Annotations.sdf3/#java/expressions/Main_8_3 line 8; ../../statements/Statements.sdf3/#java/expressions/Main_12_3 line 12">java/expressions/Main</button>
 
 <span class="layout">// Chapter 15. Expressions</span>
 
 <span class="keyword">imports</span>
 
-  <a href="../PrimaryExpressions.sdf3/#java/expressions/PrimaryExpressions_7_42" id="java/expressions/PrimaryExpressions_69_104" title="Defined at ../PrimaryExpressions.sdf3 line 1">java/expressions/PrimaryExpressions</a>
-  <a href="../ClassInstanceCreation.sdf3/#java/expressions/ClassInstanceCreation_7_45" id="java/expressions/ClassInstanceCreation_107_145" title="Defined at ../ClassInstanceCreation.sdf3 line 1">java/expressions/ClassInstanceCreation</a>
-  <a href="../ArrayCreation.sdf3/#java/expressions/ArrayCreation_7_37" id="java/expressions/ArrayCreation_148_178" title="Defined at ../ArrayCreation.sdf3 line 1">java/expressions/ArrayCreation</a>
-  <a href="../FieldAccess.sdf3/#java/expressions/FieldAccess_7_35" id="java/expressions/FieldAccess_181_209" title="Defined at ../FieldAccess.sdf3 line 1">java/expressions/FieldAccess</a>
-  <a href="../ArrayAccess.sdf3/#java/expressions/ArrayAccess_7_35" id="java/expressions/ArrayAccess_212_240" title="Defined at ../ArrayAccess.sdf3 line 1">java/expressions/ArrayAccess</a>
-  <a href="../MethodInvocation.sdf3/#java/expressions/MethodInvocation_7_40" id="java/expressions/MethodInvocation_243_276" title="Defined at ../MethodInvocation.sdf3 line 1">java/expressions/MethodInvocation</a>
-  <a href="../MethodReference.sdf3/#java/expressions/MethodReference_7_39" id="java/expressions/MethodReference_279_311" title="Defined at ../MethodReference.sdf3 line 1">java/expressions/MethodReference</a>
-  <a href="../Postfix.sdf3/#java/expressions/Postfix_7_31" id="java/expressions/Postfix_314_338" title="Defined at ../Postfix.sdf3 line 1">java/expressions/Postfix</a>
-  <a href="../UnaryOperators.sdf3/#java/expressions/UnaryOperators_7_38" id="java/expressions/UnaryOperators_341_372" title="Defined at ../UnaryOperators.sdf3 line 1">java/expressions/UnaryOperators</a>
-  <a href="../BinaryOperators.sdf3/#java/expressions/BinaryOperators_7_39" id="java/expressions/BinaryOperators_375_407" title="Defined at ../BinaryOperators.sdf3 line 1">java/expressions/BinaryOperators</a>
-  <a href="../AssignmentOperators.sdf3/#java/expressions/AssignmentOperators_7_43" id="java/expressions/AssignmentOperators_410_446" title="Defined at ../AssignmentOperators.sdf3 line 1">java/expressions/AssignmentOperators</a>
+  <a href="../PrimaryExpressions.sdf3/#java/expressions/PrimaryExpressions_1_8" id="java/expressions/PrimaryExpressions_7_3" title="Defined at ../PrimaryExpressions.sdf3 line 1">java/expressions/PrimaryExpressions</a>
+  <a href="../ClassInstanceCreation.sdf3/#java/expressions/ClassInstanceCreation_1_8" id="java/expressions/ClassInstanceCreation_8_3" title="Defined at ../ClassInstanceCreation.sdf3 line 1">java/expressions/ClassInstanceCreation</a>
+  <a href="../ArrayCreation.sdf3/#java/expressions/ArrayCreation_1_8" id="java/expressions/ArrayCreation_9_3" title="Defined at ../ArrayCreation.sdf3 line 1">java/expressions/ArrayCreation</a>
+  <a href="../FieldAccess.sdf3/#java/expressions/FieldAccess_1_8" id="java/expressions/FieldAccess_10_3" title="Defined at ../FieldAccess.sdf3 line 1">java/expressions/FieldAccess</a>
+  <a href="../ArrayAccess.sdf3/#java/expressions/ArrayAccess_1_8" id="java/expressions/ArrayAccess_11_3" title="Defined at ../ArrayAccess.sdf3 line 1">java/expressions/ArrayAccess</a>
+  <a href="../MethodInvocation.sdf3/#java/expressions/MethodInvocation_1_8" id="java/expressions/MethodInvocation_12_3" title="Defined at ../MethodInvocation.sdf3 line 1">java/expressions/MethodInvocation</a>
+  <a href="../MethodReference.sdf3/#java/expressions/MethodReference_1_8" id="java/expressions/MethodReference_13_3" title="Defined at ../MethodReference.sdf3 line 1">java/expressions/MethodReference</a>
+  <a href="../Postfix.sdf3/#java/expressions/Postfix_1_8" id="java/expressions/Postfix_14_3" title="Defined at ../Postfix.sdf3 line 1">java/expressions/Postfix</a>
+  <a href="../UnaryOperators.sdf3/#java/expressions/UnaryOperators_1_8" id="java/expressions/UnaryOperators_15_3" title="Defined at ../UnaryOperators.sdf3 line 1">java/expressions/UnaryOperators</a>
+  <a href="../BinaryOperators.sdf3/#java/expressions/BinaryOperators_1_8" id="java/expressions/BinaryOperators_16_3" title="Defined at ../BinaryOperators.sdf3 line 1">java/expressions/BinaryOperators</a>
+  <a href="../AssignmentOperators.sdf3/#java/expressions/AssignmentOperators_1_8" id="java/expressions/AssignmentOperators_17_3" title="Defined at ../AssignmentOperators.sdf3 line 1">java/expressions/AssignmentOperators</a>
   
 
 <span class="keyword">sorts</span>
-  <a href="../../classes/ConstructorDeclarations.sdf3/#Expression_842_852" id="Expression_459_469" title="Referenced at ../../classes/ConstructorDeclarations.sdf3 line 35, 36, 37; ../../classes/EnumDeclarations.sdf3 line 37; ../../classes/FieldDeclarations.sdf3 line 36; ../../interfaces/Annotations.sdf3 line 24; ../../statements/Statements.sdf3 line 36, 37, 39, 41, 42, 49, 55, 57, 58, 59, 61, 62, 65, 75, 81, 90, 92, 94, 128">Expression</a>
+  <button class="modal-open" id="Expression_21_3" title="Multi-file references" data-urls="../../classes/ConstructorDeclarations.sdf3/#Expression_35_69 line 35, 36, 37; ../../classes/EnumDeclarations.sdf3/#Expression_37_43 line 37; ../../classes/FieldDeclarations.sdf3/#Expression_36_25 line 36; ../../interfaces/Annotations.sdf3/#Expression_24_18 line 24; ../../statements/Statements.sdf3/#Expression_36_28 line 36, 37, 39, 41, 42, 49, 55, 57, 58, 59, 61, 62, 65, 75, 81, 90, 92, 94, 128">Expression</button>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

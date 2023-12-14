@@ -25,18 +25,27 @@ hide:
 13
 14
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../ClassDeclarations.sdf3/#java/classes/InstanceInitializers_249_282" id="java/classes/InstanceInitializers_7_40" title="Referenced at ../ClassDeclarations.sdf3 line 12; ../Main.sdf3 line 10">java/classes/InstanceInitializers</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/classes/InstanceInitializers_1_8" title="Multi-file references" data-urls="../ClassDeclarations.sdf3/#java/classes/InstanceInitializers_12_3 line 12; ../Main.sdf3/#java/classes/InstanceInitializers_10_3 line 10">java/classes/InstanceInitializers</button>
 
 <span class="layout">// 8.6. Instance Initializers</span>
 
 <span class="keyword">imports</span>
-  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_7_29" id="java/statements/Blocks_83_105" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
+  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
 
 <span class="keyword">context-free sorts</span>
 
-  <a href="../ClassDeclarations.sdf3/#InstanceInitializer_1505_1524" id="InstanceInitializer_129_148" title="Referenced at ../ClassDeclarations.sdf3 line 59">InstanceInitializer</a>
+  <a href="../ClassDeclarations.sdf3/#InstanceInitializer_59_27" id="InstanceInitializer_10_3" title="Referenced at ../ClassDeclarations.sdf3 line 59">InstanceInitializer</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="../ClassDeclarations.sdf3/#InstanceInitializer_1505_1524" id="InstanceInitializer_173_192" title="Referenced at ../ClassDeclarations.sdf3 line 59">InstanceInitializer</a>.<span class="cons_Constructor"><span id="InstanceInit_193_205" title="Not referenced locally, nor via imports">InstanceInit</span></span> = <a href="../../statements/Blocks.sdf3/#Block_185_190" id="Block_208_213" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>
+  <a href="../ClassDeclarations.sdf3/#InstanceInitializer_59_27" id="InstanceInitializer_14_3" title="Referenced at ../ClassDeclarations.sdf3 line 59">InstanceInitializer</a>.<span class="cons_Constructor"><span id="InstanceInit_14_23" title="Not referenced">InstanceInit</span></span> = <a href="../../statements/Blocks.sdf3/#Block_12_3" id="Block_14_38" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

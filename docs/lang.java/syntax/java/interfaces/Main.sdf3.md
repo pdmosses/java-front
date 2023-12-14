@@ -21,14 +21,23 @@ hide:
 9
 10
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/interfaces/Main_124_144" id="java/interfaces/Main_7_27" title="Referenced at ../../Main.sdf3 line 9">java/interfaces/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/interfaces/Main_9_3" id="java/interfaces/Main_1_8" title="Referenced at ../../Main.sdf3 line 9">java/interfaces/Main</a>
 
 <span class="layout">// Chapter 9. Interfaces</span>
 
 <span class="keyword">imports</span>
-  <a href="../InterfaceDeclarations.sdf3/#java/interfaces/InterfaceDeclarations_7_44" id="java/interfaces/InterfaceDeclarations_65_102" title="Defined at ../InterfaceDeclarations.sdf3 line 1">java/interfaces/InterfaceDeclarations</a>
-  <a href="../InterfaceMethodDeclarations.sdf3/#java/interfaces/InterfaceMethodDeclarations_7_50" id="java/interfaces/InterfaceMethodDeclarations_105_148" title="Defined at ../InterfaceMethodDeclarations.sdf3 line 1">java/interfaces/InterfaceMethodDeclarations</a>
-  <a href="../AnnotationTypes.sdf3/#java/interfaces/AnnotationTypes_7_38" id="java/interfaces/AnnotationTypes_151_182" title="Defined at ../AnnotationTypes.sdf3 line 1">java/interfaces/AnnotationTypes</a>
-  <a href="../Annotations.sdf3/#java/interfaces/Annotations_7_34" id="java/interfaces/Annotations_185_212" title="Defined at ../Annotations.sdf3 line 1">java/interfaces/Annotations</a>
-  <a href="../ConstantDeclarations.sdf3/#java/interfaces/ConstantDeclarations_7_43" id="java/interfaces/ConstantDeclarations_215_251" title="Defined at ../ConstantDeclarations.sdf3 line 1">java/interfaces/ConstantDeclarations</a>
+  <a href="../InterfaceDeclarations.sdf3/#java/interfaces/InterfaceDeclarations_1_8" id="java/interfaces/InterfaceDeclarations_6_3" title="Defined at ../InterfaceDeclarations.sdf3 line 1">java/interfaces/InterfaceDeclarations</a>
+  <a href="../InterfaceMethodDeclarations.sdf3/#java/interfaces/InterfaceMethodDeclarations_1_8" id="java/interfaces/InterfaceMethodDeclarations_7_3" title="Defined at ../InterfaceMethodDeclarations.sdf3 line 1">java/interfaces/InterfaceMethodDeclarations</a>
+  <a href="../AnnotationTypes.sdf3/#java/interfaces/AnnotationTypes_1_8" id="java/interfaces/AnnotationTypes_8_3" title="Defined at ../AnnotationTypes.sdf3 line 1">java/interfaces/AnnotationTypes</a>
+  <a href="../Annotations.sdf3/#java/interfaces/Annotations_1_8" id="java/interfaces/Annotations_9_3" title="Defined at ../Annotations.sdf3 line 1">java/interfaces/Annotations</a>
+  <a href="../ConstantDeclarations.sdf3/#java/interfaces/ConstantDeclarations_1_8" id="java/interfaces/ConstantDeclarations_10_3" title="Defined at ../ConstantDeclarations.sdf3 line 1">java/interfaces/ConstantDeclarations</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

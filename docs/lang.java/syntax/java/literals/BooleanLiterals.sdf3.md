@@ -27,20 +27,29 @@ hide:
 15
 16
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/BooleanLiterals_126_155" id="java/literals/BooleanLiterals_7_36" title="Referenced at ../Main.sdf3 line 8">java/literals/BooleanLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/BooleanLiterals_8_3" id="java/literals/BooleanLiterals_1_8" title="Referenced at ../Main.sdf3 line 8">java/literals/BooleanLiterals</a>
 
 <span class="layout">// 3.10.3. Boolean Literals</span>
 
 <span class="keyword">context-free start-symbols</span>
   
-  <a href="#BoolLiteral_136_147" id="BoolLiteral_99_110" title="Defined at line 11, 15, 16">BoolLiteral</a>
+  <a href="#BoolLiteral_11_3" id="BoolLiteral_7_3" title="Defined at line 11, 15, 16">BoolLiteral</a>
 
 <span class="keyword">context-free sorts</span>
   
-  <a href="#BoolLiteral_99_110" id="BoolLiteral_136_147" title="Referenced at line 7; ../Main.sdf3 line 21">BoolLiteral</a>
+  <button class="modal-open" id="BoolLiteral_11_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="#BoolLiteral_99_110" id="BoolLiteral_172_183" title="Referenced at line 7; ../Main.sdf3 line 21">BoolLiteral</a>.<span class="cons_Constructor"><span id="True_184_188" title="Not referenced locally, nor via imports">True</span></span> = &lt;<span class="cons_String">true</span>&gt;
-  <a href="#BoolLiteral_99_110" id="BoolLiteral_200_211" title="Referenced at line 7; ../Main.sdf3 line 21">BoolLiteral</a>.<span class="cons_Constructor"><span id="False_212_217" title="Not referenced locally, nor via imports">False</span></span> = &lt;<span class="cons_String">false</span>&gt;
+  <button class="modal-open" id="BoolLiteral_15_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>.<span class="cons_Constructor"><span id="True_15_15" title="Not referenced">True</span></span> = &lt;<span class="cons_String">true</span>&gt;
+  <button class="modal-open" id="BoolLiteral_16_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>.<span class="cons_Constructor"><span id="False_16_15" title="Not referenced">False</span></span> = &lt;<span class="cons_String">false</span>&gt;
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

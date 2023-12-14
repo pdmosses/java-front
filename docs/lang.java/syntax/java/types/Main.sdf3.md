@@ -31,24 +31,33 @@ hide:
 19
 20
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/types/Main_250_265" id="java/types/Main_7_22" title="Referenced at ../../Main.sdf3 line 15">java/types/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/types/Main_15_3" id="java/types/Main_1_8" title="Referenced at ../../Main.sdf3 line 15">java/types/Main</a>
 
 <span class="layout">// Chapter 4. Types, Values, and Variables</span>
 
 <span class="keyword">imports</span>
-  <a href="../PrimitiveTypes.sdf3/#java/types/PrimitiveTypes_7_32" id="java/types/PrimitiveTypes_78_103" title="Defined at ../PrimitiveTypes.sdf3 line 1">java/types/PrimitiveTypes</a>
-  <a href="../ReferenceTypes.sdf3/#java/types/ReferenceTypes_7_32" id="java/types/ReferenceTypes_106_131" title="Defined at ../ReferenceTypes.sdf3 line 1">java/types/ReferenceTypes</a>
+  <a href="../PrimitiveTypes.sdf3/#java/types/PrimitiveTypes_1_8" id="java/types/PrimitiveTypes_6_3" title="Defined at ../PrimitiveTypes.sdf3 line 1">java/types/PrimitiveTypes</a>
+  <a href="../ReferenceTypes.sdf3/#java/types/ReferenceTypes_1_8" id="java/types/ReferenceTypes_7_3" title="Defined at ../ReferenceTypes.sdf3 line 1">java/types/ReferenceTypes</a>
 
 <span class="keyword">context-free start-symbols</span>
 
-  <a href="#Type_193_197" id="Type_163_167" title="Defined at line 15, 19, 20">Type</a>
+  <a href="#Type_15_3" id="Type_11_3" title="Defined at line 15, 19, 20">Type</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="#Type_163_167" id="Type_193_197" title="Referenced at line 11">Type</a>
+  <a href="#Type_11_3" id="Type_15_3" title="Referenced at line 11">Type</a>
   
 <span class="keyword">context-free syntax</span>
 
-  <a href="#Type_163_167" id="Type_224_228" title="Referenced at line 11">Type</a> = <a href="../PrimitiveTypes.sdf3/#PrimitiveType_131_144" id="PrimitiveType_231_244" title="Defined at ../PrimitiveTypes.sdf3 line 10, 15, 16">PrimitiveType</a>
-  <a href="#Type_163_167" id="Type_247_251" title="Referenced at line 11">Type</a> = <a href="../ReferenceTypes.sdf3/#ReferenceType_218_231" id="ReferenceType_254_267" title="Defined at ../ReferenceTypes.sdf3 line 13, 23, 24">ReferenceType</a>
+  <a href="#Type_11_3" id="Type_19_3" title="Referenced at line 11">Type</a> = <a href="../PrimitiveTypes.sdf3/#PrimitiveType_10_3" id="PrimitiveType_19_10" title="Defined at ../PrimitiveTypes.sdf3 line 10, 15, 16">PrimitiveType</a>
+  <a href="#Type_11_3" id="Type_20_3" title="Referenced at line 11">Type</a> = <a href="../ReferenceTypes.sdf3/#ReferenceType_13_3" id="ReferenceType_20_10" title="Defined at ../ReferenceTypes.sdf3 line 13, 23, 24">ReferenceType</a>
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>

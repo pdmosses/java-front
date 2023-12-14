@@ -32,25 +32,34 @@ hide:
 20
 21
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Disambiguation.sdf3/#java/expressions/LambdaExpressions_324_358" id="java/expressions/LambdaExpressions_7_41" title="Referenced at ../Disambiguation.sdf3 line 12; ../UnaryOperators.sdf3 line 8">java/expressions/LambdaExpressions</a>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/expressions/LambdaExpressions_1_8" title="Multi-file references" data-urls="../Disambiguation.sdf3/#java/expressions/LambdaExpressions_12_3 line 12; ../UnaryOperators.sdf3/#java/expressions/LambdaExpressions_8_3 line 8">java/expressions/LambdaExpressions</button>
 
 <span class="layout">// 15.27. Lambda Expressions</span>
 
 <span class="keyword">imports</span>
-  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_7_29" id="java/statements/Blocks_83_105" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
-  <a href="../../lexical/Identifiers.sdf3/#java/lexical/Identifiers_7_31" id="java/lexical/Identifiers_108_132" title="Defined at ../../lexical/Identifiers.sdf3 line 1">java/lexical/Identifiers</a>
-  <a href="../../classes/MethodDeclarations.sdf3/#java/classes/MethodDeclarations_7_38" id="java/classes/MethodDeclarations_135_166" title="Defined at ../../classes/MethodDeclarations.sdf3 line 1">java/classes/MethodDeclarations</a>
+  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
+  <a href="../../lexical/Identifiers.sdf3/#java/lexical/Identifiers_1_8" id="java/lexical/Identifiers_7_3" title="Defined at ../../lexical/Identifiers.sdf3 line 1">java/lexical/Identifiers</a>
+  <a href="../../classes/MethodDeclarations.sdf3/#java/classes/MethodDeclarations_1_8" id="java/classes/MethodDeclarations_8_3" title="Defined at ../../classes/MethodDeclarations.sdf3 line 1">java/classes/MethodDeclarations</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="#LambdaParameters_274_290" id="LambdaParameters_192_208" title="Referenced at line 16, 17">LambdaParameters</a>
+  <a href="#LambdaParameters_16_44" id="LambdaParameters_12_3" title="Referenced at line 16, 17">LambdaParameters</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="#Expression_296_306" id="Expression_233_243" title="Referenced at line 16">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#LambdaExpression_2256_2272" id="LambdaExpression_244_260" title="Referenced at ../Disambiguation.sdf3 line 107">LambdaExpression</a></span>          = [[<a href="#LambdaParameters_192_208" id="LambdaParameters_274_290" title="Defined at line 12, 19, 20, 21">LambdaParameters</a>] <span class="cons_String">-&gt;</span> [<a href="#Expression_233_243" id="Expression_296_306" title="Defined at line 16, 17">Expression</a>]]
-  <a href="#Expression_296_306" id="Expression_311_321" title="Referenced at line 16">Expression</a>.<span class="cons_Constructor"><span id="LambdaExpressionWithBlock_322_347" title="Not referenced locally, nor via imports">LambdaExpressionWithBlock</span></span> = [[<a href="#LambdaParameters_192_208" id="LambdaParameters_352_368" title="Defined at line 12, 19, 20, 21">LambdaParameters</a>] <span class="cons_String">-&gt;</span> [<a href="../../statements/Blocks.sdf3/#Block_185_190" id="Block_374_379" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>]]
+  <a href="#Expression_16_66" id="Expression_16_3" title="Referenced at line 16">Expression</a>.<span class="cons_Constructor"><a href="../Disambiguation.sdf3/#LambdaExpression_107_16" id="LambdaExpression_16_14" title="Referenced at ../Disambiguation.sdf3 line 107">LambdaExpression</a></span>          = [[<a href="#LambdaParameters_12_3" id="LambdaParameters_16_44" title="Defined at line 12, 19, 20, 21">LambdaParameters</a>] <span class="cons_String">-&gt;</span> [<a href="#Expression_16_3" id="Expression_16_66" title="Defined at line 16, 17">Expression</a>]]
+  <a href="#Expression_16_66" id="Expression_17_3" title="Referenced at line 16">Expression</a>.<span class="cons_Constructor"><span id="LambdaExpressionWithBlock_17_14" title="Not referenced">LambdaExpressionWithBlock</span></span> = [[<a href="#LambdaParameters_12_3" id="LambdaParameters_17_44" title="Defined at line 12, 19, 20, 21">LambdaParameters</a>] <span class="cons_String">-&gt;</span> [<a href="../../statements/Blocks.sdf3/#Block_12_3" id="Block_17_66" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>]]
   
-  <a href="#LambdaParameters_274_290" id="LambdaParameters_387_403" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="SingleInferredParam_404_423" title="Not referenced locally, nor via imports">SingleInferredParam</span></span> = <a href="../../lexical/Identifiers.sdf3/#Id_141_143" id="Id_426_428" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a>
-  <a href="#LambdaParameters_274_290" id="LambdaParameters_431_447" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="Params_448_454" title="Not referenced locally, nor via imports">Params</span></span>              = &lt;<span class="cons_String">(</span>&lt;<a href="../../classes/MethodDeclarations.sdf3/#FormalParams_415_427" id="FormalParams_473_485" title="Defined at ../../classes/MethodDeclarations.sdf3 line 23, 62, 63, 64, 65, 66">FormalParams</a>&gt;<span class="cons_String">)</span>&gt;
-  <a href="#LambdaParameters_274_290" id="LambdaParameters_491_507" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="InferredParams_508_522" title="Not referenced locally, nor via imports">InferredParams</span></span>      = &lt;<span class="cons_String">(</span>&lt;{<a href="../../lexical/Identifiers.sdf3/#Id_141_143" id="Id_534_536" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a> <span class="cons_Lit">", "</span>}+&gt;<span class="cons_String">)</span>&gt;
+  <a href="#LambdaParameters_16_44" id="LambdaParameters_19_3" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="SingleInferredParam_19_20" title="Not referenced">SingleInferredParam</span></span> = <a href="../../lexical/Identifiers.sdf3/#Id_15_3" id="Id_19_42" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a>
+  <a href="#LambdaParameters_16_44" id="LambdaParameters_20_3" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="Params_20_20" title="Not referenced">Params</span></span>              = &lt;<span class="cons_String">(</span>&lt;<a href="../../classes/MethodDeclarations.sdf3/#FormalParams_23_3" id="FormalParams_20_45" title="Defined at ../../classes/MethodDeclarations.sdf3 line 23, 62, 63, 64, 65, 66">FormalParams</a>&gt;<span class="cons_String">)</span>&gt;
+  <a href="#LambdaParameters_16_44" id="LambdaParameters_21_3" title="Referenced at line 16, 17">LambdaParameters</a>.<span class="cons_Constructor"><span id="InferredParams_21_20" title="Not referenced">InferredParams</span></span>      = &lt;<span class="cons_String">(</span>&lt;{<a href="../../lexical/Identifiers.sdf3/#Id_15_3" id="Id_21_46" title="Defined at ../../lexical/Identifiers.sdf3 line 15, 23">Id</a> <span class="cons_Lit">", "</span>}+&gt;<span class="cons_String">)</span>&gt;
 </code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>
