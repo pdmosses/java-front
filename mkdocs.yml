@@ -1,7 +1,7 @@
 site_name: java-front
 site_url: https://pdmosses.github.io/java-front/
 repo_name: pdmosses/java-front
-repo_url: https://github.com/pdmosses/java-front
+repo_url: https://github.com/pdmosses/java-front/
 
 theme:
   name: material
@@ -36,13 +36,21 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
   - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_css:
   - stylesheets/metaborg.css
+  - stylesheets/modal.css
   - stylesheets/sdf3.css
+  - stylesheets/stx.css
+
+extra_javascript:
+  - javascripts/modal.js
