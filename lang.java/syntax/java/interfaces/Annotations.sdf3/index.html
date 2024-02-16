@@ -1,0 +1,2725 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pdmosses.github.io/java-front/lang.java/syntax/java/interfaces/Annotations.sdf3/">
+      
+      
+        <link rel="prev" href="../AnnotationTypes.sdf3/">
+      
+      
+        <link rel="next" href="../ConstantDeclarations.sdf3/">
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.9">
+    
+    
+      
+        <title>Annotations.sdf3 - java-front</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.f2e4d321.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/metaborg.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/modal.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/sdf3.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/nab.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/stx.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#annotationssdf3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="java-front" class="md-header__button md-logo" aria-label="java-front" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            java-front
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Annotations.sdf3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/pdmosses/java-front/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pdmosses/java-front
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Hyperlinked Twin
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../" class="md-tabs__link">
+          
+  
+    
+  
+  lang.java
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="java-front" class="md-nav__button md-logo" aria-label="java-front" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    java-front
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/pdmosses/java-front/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pdmosses/java-front
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hyperlinked Twin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    lang.java
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            lang.java
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    syntax
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            syntax
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Java_StrategoMix.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Java_StrategoMix.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    java
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            java
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Test.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Test.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_3" id="__nav_2_2_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    arrays
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            arrays
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arrays/ArrayInitializers.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ArrayInitializers.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arrays/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_4" id="__nav_2_2_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/ClassDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ClassDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/ConstructorDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ConstructorDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/EnumDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EnumDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/FieldDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FieldDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/InstanceInitializers.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InstanceInitializers.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/MethodDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MethodDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/StaticInitializers.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StaticInitializers.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_5" id="__nav_2_2_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    expressions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            expressions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/ArrayAccess.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ArrayAccess.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/ArrayCreation.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ArrayCreation.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/AssignmentOperators.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AssignmentOperators.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/BinaryOperators.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BinaryOperators.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/ClassInstanceCreation.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ClassInstanceCreation.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/Disambiguation.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Disambiguation.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/FieldAccess.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FieldAccess.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/LambdaExpressions.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LambdaExpressions.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/MethodInvocation.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MethodInvocation.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/MethodReference.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MethodReference.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/Postfix.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Postfix.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/PrimaryExpressions.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrimaryExpressions.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../expressions/UnaryOperators.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UnaryOperators.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_6" id="__nav_2_2_2_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    interfaces
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            interfaces
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AnnotationTypes.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AnnotationTypes.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Annotations.sdf3
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ConstantDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ConstantDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InterfaceDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InterfaceDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InterfaceMethodDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InterfaceMethodDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_7" id="__nav_2_2_2_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    lexical
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            lexical
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/Comments.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comments.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/Identifiers.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identifiers.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/Keywords.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keywords.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/LineTerminators.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LineTerminators.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/Modifiers.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modifiers.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/SemiColon.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SemiColon.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/UnicodeEscapes.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UnicodeEscapes.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexical/WhiteSpace.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WhiteSpace.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_8" id="__nav_2_2_2_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    literals
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            literals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/BooleanLiterals.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BooleanLiterals.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/CharacterLiterals.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CharacterLiterals.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/EscapeSequences.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EscapeSequences.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/FloatingPointLiterals.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FloatingPointLiterals.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/IntegerLiterals.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IntegerLiterals.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/NullLiteral.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NullLiteral.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literals/StringLiterals.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    StringLiterals.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_9" id="__nav_2_2_2_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    names
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            names
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../names/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../names/Names.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Names.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_10" id="__nav_2_2_2_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    packages
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            packages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/CompilationUnits.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CompilationUnits.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/ImportDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ImportDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/PackageDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PackageDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../packages/TypeDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TypeDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_11" id="__nav_2_2_2_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    statements
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            statements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statements/Blocks.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blocks.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statements/LocalVariableDeclarations.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LocalVariableDeclarations.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statements/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statements/Statements.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Statements.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2_12" id="__nav_2_2_2_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    types
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_2_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            types
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../types/Main.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Main.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../types/ParameterizedTypes.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ParameterizedTypes.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../types/PrimitiveTypes.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrimitiveTypes.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../types/ReferenceTypes.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ReferenceTypes.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../types/TypeVariable.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TypeVariable.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../metaborg-java.sdf3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    metaborg-java.sdf3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="annotationssdf3"><code>Annotations.sdf3</code></h1>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span> <a href="https://github.com/pdmosses/java-front/blob/master/lang.java/syntax/java/interfaces/Annotations.sdf3" title="The source file on GitHub">pdmosses/java-front/lang.java/syntax/java/interfaces/Annotations.sdf3</a></p>
+<div class="sdf3"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></div></td>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/interfaces/Annotations_1_8" title="a definition with multiple references" data-urls="../AnnotationTypes.sdf3/#java/interfaces/Annotations line 14_3; ../ConstantDeclarations.sdf3/#java/interfaces/Annotations line 8_3; ../InterfaceDeclarations.sdf3/#java/interfaces/Annotations line 11_3; ../InterfaceMethodDeclarations.sdf3/#java/interfaces/Annotations line 8_3; ../Main.sdf3/#java/interfaces/Annotations line 9_3; ../../classes/ClassDeclarations.sdf3/#java/interfaces/Annotations line 16_3; ../../classes/ConstructorDeclarations.sdf3/#java/interfaces/Annotations line 12_3; ../../classes/EnumDeclarations.sdf3/#java/interfaces/Annotations line 8_3; ../../classes/FieldDeclarations.sdf3/#java/interfaces/Annotations line 11_3; ../../classes/MethodDeclarations.sdf3/#java/interfaces/Annotations line 10_3; ../../expressions/ArrayCreation.sdf3/#java/interfaces/Annotations line 8_3; ../../expressions/ClassInstanceCreation.sdf3/#java/interfaces/Annotations line 8_3; ../../packages/PackageDeclarations.sdf3/#java/interfaces/Annotations line 7_3; ../../statements/LocalVariableDeclarations.sdf3/#java/interfaces/Annotations line 8_3; ../../types/ParameterizedTypes.sdf3/#java/interfaces/Annotations line 7_3; ../../types/PrimitiveTypes.sdf3/#java/interfaces/Annotations line 6_3; ../../types/ReferenceTypes.sdf3/#java/interfaces/Annotations line 9_3; ../../types/TypeVariable.sdf3/#java/interfaces/Annotations line 8_3">java/interfaces/Annotations</button>
+
+<span class="layout">// 9.7. Annotations</span>
+
+<span class="keyword">imports</span>
+  <a href="../../names/Names.sdf3/#java/names/Names_1_8" id="java/names/Names_6_3" title="a reference to a single-file definition">java/names/Names</a>
+  <a href="../../lexical/Identifiers.sdf3/#java/lexical/Identifiers_1_8" id="java/lexical/Identifiers_7_3" title="a reference to a single-file definition">java/lexical/Identifiers</a>
+  <a href="../../expressions/Main.sdf3/#java/expressions/Main_1_8" id="java/expressions/Main_8_3" title="a reference to a single-file definition">java/expressions/Main</a>
+
+<span class="keyword">context-free sorts</span>
+
+  <button class="modal-open" id="Annotation_12_3" title="a definition with multiple references" data-urls="#Annotation line 26_18; ../AnnotationTypes.sdf3/#Annotation line 40_35; ../ConstantDeclarations.sdf3/#Annotation line 20_22; ../InterfaceDeclarations.sdf3/#Annotation line 33_23; ../InterfaceMethodDeclarations.sdf3/#Annotation line 20_29; ../../classes/ClassDeclarations.sdf3/#Annotation line 41_19; ../../classes/ConstructorDeclarations.sdf3/#Annotation line 30_25; ../../classes/EnumDeclarations.sdf3/#Annotation line 31_5, 35_5; ../../classes/FieldDeclarations.sdf3/#Annotation line 39_19, 60_72; ../../classes/MethodDeclarations.sdf3/#Annotation line 37_22, 45_20, 59_40, 60_40, 69_76, 73_22; ../../expressions/ArrayCreation.sdf3/#Annotation line 26_20; ../../expressions/ClassInstanceCreation.sdf3/#Annotation line 24_26, 27_26, 31_33; ../../packages/PackageDeclarations.sdf3/#Annotation line 15_46; ../../types/ParameterizedTypes.sdf3/#Annotation line 20_26, 21_33, 22_31; ../../types/PrimitiveTypes.sdf3/#Annotation line 15_34, 16_34; ../../types/ReferenceTypes.sdf3/#Annotation line 26_45, 27_57, 35_29, 41_33; ../../types/TypeVariable.sdf3/#Annotation line 16_43, 17_43">Annotation</button>
+  <a href="#ElementValuePair_19_36" id="ElementValuePair_13_3" title="a definition with a single reference">ElementValuePair</a>
+  <button class="modal-open" id="ElementValue_14_3" title="a definition with multiple references" data-urls="#ElementValue line 21_45, 23_43, 28_58, 29_63; ../AnnotationTypes.sdf3/#ElementValue line 44_39">ElementValue</button>
+  <a href="#ElementValueArrayInitializer_25_18" id="ElementValueArrayInitializer_15_3" title="a definition with a single reference">ElementValueArrayInitializer</a>
+
+<span class="keyword">context-free syntax</span>
+
+  <button class="modal-open" id="Annotation_19_3" title="a definition with multiple references" data-urls="#Annotation line 26_18; ../AnnotationTypes.sdf3/#Annotation line 40_35; ../ConstantDeclarations.sdf3/#Annotation line 20_22; ../InterfaceDeclarations.sdf3/#Annotation line 33_23; ../InterfaceMethodDeclarations.sdf3/#Annotation line 20_29; ../../classes/ClassDeclarations.sdf3/#Annotation line 41_19; ../../classes/ConstructorDeclarations.sdf3/#Annotation line 30_25; ../../classes/EnumDeclarations.sdf3/#Annotation line 31_5, 35_5; ../../classes/FieldDeclarations.sdf3/#Annotation line 39_19, 60_72; ../../classes/MethodDeclarations.sdf3/#Annotation line 37_22, 45_20, 59_40, 60_40, 69_76, 73_22; ../../expressions/ArrayCreation.sdf3/#Annotation line 26_20; ../../expressions/ClassInstanceCreation.sdf3/#Annotation line 24_26, 27_26, 31_33; ../../packages/PackageDeclarations.sdf3/#Annotation line 15_46; ../../types/ParameterizedTypes.sdf3/#Annotation line 20_26, 21_33, 22_31; ../../types/PrimitiveTypes.sdf3/#Annotation line 15_34, 16_34; ../../types/ReferenceTypes.sdf3/#Annotation line 26_45, 27_57, 35_29, 41_33; ../../types/TypeVariable.sdf3/#Annotation line 16_43, 17_43">Annotation</button>.<span class="cons_Constructor"><span id="Anno_19_14" title="a definition with no references">Anno</span></span> = &lt;<span class="cons_String">@</span>&lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_19_24" title="a reference to a single-file definition">TypeName</a>&gt;<span class="cons_String">(</span>&lt;{<a href="#ElementValuePair_13_3" id="ElementValuePair_19_36" title="a reference to a single-file definition">ElementValuePair</a> <span class="cons_Lit">", "</span>}*&gt;<span class="cons_String">)</span>&gt;
+  <button class="modal-open" id="Annotation_20_3" title="a definition with multiple references" data-urls="#Annotation line 26_18; ../AnnotationTypes.sdf3/#Annotation line 40_35; ../ConstantDeclarations.sdf3/#Annotation line 20_22; ../InterfaceDeclarations.sdf3/#Annotation line 33_23; ../InterfaceMethodDeclarations.sdf3/#Annotation line 20_29; ../../classes/ClassDeclarations.sdf3/#Annotation line 41_19; ../../classes/ConstructorDeclarations.sdf3/#Annotation line 30_25; ../../classes/EnumDeclarations.sdf3/#Annotation line 31_5, 35_5; ../../classes/FieldDeclarations.sdf3/#Annotation line 39_19, 60_72; ../../classes/MethodDeclarations.sdf3/#Annotation line 37_22, 45_20, 59_40, 60_40, 69_76, 73_22; ../../expressions/ArrayCreation.sdf3/#Annotation line 26_20; ../../expressions/ClassInstanceCreation.sdf3/#Annotation line 24_26, 27_26, 31_33; ../../packages/PackageDeclarations.sdf3/#Annotation line 15_46; ../../types/ParameterizedTypes.sdf3/#Annotation line 20_26, 21_33, 22_31; ../../types/PrimitiveTypes.sdf3/#Annotation line 15_34, 16_34; ../../types/ReferenceTypes.sdf3/#Annotation line 26_45, 27_57, 35_29, 41_33; ../../types/TypeVariable.sdf3/#Annotation line 16_43, 17_43">Annotation</button>.<span class="cons_Constructor"><span id="MarkerAnno_20_14" title="a definition with no references">MarkerAnno</span></span> = &lt;<span class="cons_String">@</span>&lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_20_30" title="a reference to a single-file definition">TypeName</a>&gt;&gt;
+  <button class="modal-open" id="Annotation_21_3" title="a definition with multiple references" data-urls="#Annotation line 26_18; ../AnnotationTypes.sdf3/#Annotation line 40_35; ../ConstantDeclarations.sdf3/#Annotation line 20_22; ../InterfaceDeclarations.sdf3/#Annotation line 33_23; ../InterfaceMethodDeclarations.sdf3/#Annotation line 20_29; ../../classes/ClassDeclarations.sdf3/#Annotation line 41_19; ../../classes/ConstructorDeclarations.sdf3/#Annotation line 30_25; ../../classes/EnumDeclarations.sdf3/#Annotation line 31_5, 35_5; ../../classes/FieldDeclarations.sdf3/#Annotation line 39_19, 60_72; ../../classes/MethodDeclarations.sdf3/#Annotation line 37_22, 45_20, 59_40, 60_40, 69_76, 73_22; ../../expressions/ArrayCreation.sdf3/#Annotation line 26_20; ../../expressions/ClassInstanceCreation.sdf3/#Annotation line 24_26, 27_26, 31_33; ../../packages/PackageDeclarations.sdf3/#Annotation line 15_46; ../../types/ParameterizedTypes.sdf3/#Annotation line 20_26, 21_33, 22_31; ../../types/PrimitiveTypes.sdf3/#Annotation line 15_34, 16_34; ../../types/ReferenceTypes.sdf3/#Annotation line 26_45, 27_57, 35_29, 41_33; ../../types/TypeVariable.sdf3/#Annotation line 16_43, 17_43">Annotation</button>.<span class="cons_Constructor"><span id="SingleElemAnno_21_14" title="a definition with no references">SingleElemAnno</span></span> = &lt;<span class="cons_String">@</span>&lt;<a href="../../names/Names.sdf3/#TypeName_11_3" id="TypeName_21_34" title="a reference to a single-file definition">TypeName</a>&gt;<span class="cons_String">(</span>&lt;<a href="#ElementValue_14_3" id="ElementValue_21_45" title="a reference to a single-file definition">ElementValue</a>&gt;<span class="cons_String">)</span>&gt;
+
+  <a href="#ElementValuePair_19_36" id="ElementValuePair_23_3" title="a definition with a single reference">ElementValuePair</a>.<span class="cons_Constructor"><span id="ElemValPair_23_20" title="a definition with no references">ElemValPair</span></span> = &lt;&lt;<a href="../../lexical/Identifiers.sdf3/#Id_15_3" id="Id_23_36" title="a reference to a single-file definition">Id</a>&gt; <span class="cons_String">=</span> &lt;<a href="#ElementValue_14_3" id="ElementValue_23_43" title="a reference to a single-file definition">ElementValue</a>&gt;&gt;
+  <button class="modal-open" id="ElementValue_24_3" title="a definition with multiple references" data-urls="#ElementValue line 21_45, 23_43, 28_58, 29_63; ../AnnotationTypes.sdf3/#ElementValue line 44_39">ElementValue</button> = <a href="../../expressions/Main.sdf3/#Expression_21_3" id="Expression_24_18" title="a reference to a single-file definition">Expression</a>  
+  <button class="modal-open" id="ElementValue_25_3" title="a definition with multiple references" data-urls="#ElementValue line 21_45, 23_43, 28_58, 29_63; ../AnnotationTypes.sdf3/#ElementValue line 44_39">ElementValue</button> = <a href="#ElementValueArrayInitializer_15_3" id="ElementValueArrayInitializer_25_18" title="a reference to a single-file definition">ElementValueArrayInitializer</a>
+  <button class="modal-open" id="ElementValue_26_3" title="a definition with multiple references" data-urls="#ElementValue line 21_45, 23_43, 28_58, 29_63; ../AnnotationTypes.sdf3/#ElementValue line 44_39">ElementValue</button> = <a href="#Annotation_12_3" id="Annotation_26_18" title="a reference to a single-file definition">Annotation</a>
+
+  <a href="#ElementValueArrayInitializer_25_18" id="ElementValueArrayInitializer_28_3" title="a definition with a single reference">ElementValueArrayInitializer</a>.<span class="cons_Constructor"><span id="ElementValArrayInit_28_32" title="a definition with no references">ElementValArrayInit</span></span> = &lt;<span class="cons_String">{</span>&lt;{<a href="#ElementValue_14_3" id="ElementValue_28_58" title="a reference to a single-file definition">ElementValue</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">}</span>&gt;
+  <a href="#ElementValueArrayInitializer_25_18" id="ElementValueArrayInitializer_29_3" title="a definition with a single reference">ElementValueArrayInitializer</a>.<span class="cons_Constructor"><span id="ElementValArrayInitComma_29_32" title="a definition with no references">ElementValArrayInitComma</span></span> = &lt;<span class="cons_String">{</span>&lt;{<a href="#ElementValue_14_3" id="ElementValue_29_63" title="a reference to a single-file definition">ElementValue</a> <span class="cons_Lit">","</span>}*&gt;<span class="cons_String">,</span> <span class="cons_String">}</span>&gt;
+
+</code></pre></td></tr></tbody></table></div>
+
+<div id="modal">
+  <div id="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-h2"></h2>
+    <p  id="modal-p"></p>
+    <ul id="modal-ul"></ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["content.code.copy", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      
+        <script src="../../../../../javascripts/modal.js"></script>
+      
+    
+  </body>
+</html>
