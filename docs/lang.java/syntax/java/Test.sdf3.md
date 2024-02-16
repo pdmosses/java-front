@@ -44,38 +44,38 @@ hide:
 32
 33
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../metaborg-java.sdf3/#java/Test_8_3" id="java/Test_1_8" title="Referenced at ../../metaborg-java.sdf3 line 8">java/Test</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../metaborg-java.sdf3/#java/Test_8_3" id="java/Test_1_8" title="a definition with a single reference">java/Test</a>
 
 <span class="layout">// The Java Language Specification</span>
 <span class="layout">// Java SE 8 Edition</span>
 
 <span class="keyword">imports</span>
-  <a href="../Main.sdf3/#java/Main_1_8" id="java/Main_7_3" title="Defined at ../Main.sdf3 line 1">java/Main</a>
-  <a href="../lexical/Comments.sdf3/#java/lexical/Comments_1_8" id="java/lexical/Comments_8_3" title="Defined at ../lexical/Comments.sdf3 line 1">java/lexical/Comments</a>
-  <a href="../lexical/Identifiers.sdf3/#java/lexical/Identifiers_1_8" id="java/lexical/Identifiers_9_3" title="Defined at ../lexical/Identifiers.sdf3 line 1">java/lexical/Identifiers</a>
-  <a href="../lexical/LineTerminators.sdf3/#java/lexical/LineTerminators_1_8" id="java/lexical/LineTerminators_10_3" title="Defined at ../lexical/LineTerminators.sdf3 line 1">java/lexical/LineTerminators</a>
-  <a href="../packages/CompilationUnits.sdf3/#java/packages/CompilationUnits_1_8" id="java/packages/CompilationUnits_11_3" title="Defined at ../packages/CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
+  <a href="../Main.sdf3/#java/Main_1_8" id="java/Main_7_3" title="a reference to a single-file definition">java/Main</a>
+  <a href="../lexical/Comments.sdf3/#java/lexical/Comments_1_8" id="java/lexical/Comments_8_3" title="a reference to a single-file definition">java/lexical/Comments</a>
+  <a href="../lexical/Identifiers.sdf3/#java/lexical/Identifiers_1_8" id="java/lexical/Identifiers_9_3" title="a reference to a single-file definition">java/lexical/Identifiers</a>
+  <a href="../lexical/LineTerminators.sdf3/#java/lexical/LineTerminators_1_8" id="java/lexical/LineTerminators_10_3" title="a reference to a single-file definition">java/lexical/LineTerminators</a>
+  <a href="../packages/CompilationUnits.sdf3/#java/packages/CompilationUnits_1_8" id="java/packages/CompilationUnits_11_3" title="a reference to a single-file definition">java/packages/CompilationUnits</a>
 
 <span class="keyword">context-free sorts</span>
 
-  <span id="Expectation_15_3" title="Not referenced">Expectation</span> <a href="#TestUnit_21_7" id="TestUnit_15_15" title="Referenced at line 21, 26">TestUnit</a>
+  <span id="Expectation_15_3" title="a definition with no references">Expectation</span> <button class="modal-open" id="TestUnit_15_15" title="a definition with multiple references" data-urls="#TestUnit line 21_7, 26_9">TestUnit</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="#CompilationUnit_32_6" id="CompilationUnit_19_3" title="Referenced at line 32">CompilationUnit</a>.<span class="cons_Constructor"><span id="Test_19_19" title="Not referenced">Test</span></span> = &lt;
+  <a href="#CompilationUnit_32_6" id="CompilationUnit_19_3" title="a definition with a single reference">CompilationUnit</a>.<span class="cons_Constructor"><span id="Test_19_19" title="a definition with no references">Test</span></span> = &lt;
     <span class="cons_String">test;</span>
-    &lt;{<a href="#TestUnit_15_15" id="TestUnit_21_7" title="Defined at line 15, 24, 30">TestUnit</a> <span class="cons_Lit">"\n"</span>}*&gt;
+    &lt;{<a href="#TestUnit_15_15" id="TestUnit_21_7" title="a reference to a single-file definition">TestUnit</a> <span class="cons_Lit">"\n"</span>}*&gt;
   &gt;
 
-  <a href="#TestUnit_21_7" id="TestUnit_24_3" title="Referenced at line 21, 26">TestUnit</a>.<span class="cons_Constructor"><span id="TestPkg_24_12" title="Not referenced">TestPkg</span></span> = &lt;
-    <span class="cons_String">[</span>&lt;<a href="../lexical/Identifiers.sdf3/#ID_19_3" id="ID_25_7" title="Defined at ../lexical/Identifiers.sdf3 line 19, 27, 28, 29, 30, 31">ID</a>&gt;<span class="cons_String">]</span> <span class="cons_String">{</span>
-      &lt;{<a href="#TestUnit_15_15" id="TestUnit_26_9" title="Defined at line 15, 24, 30">TestUnit</a> <span class="cons_Lit">"\n"</span>}*&gt;
+  <button class="modal-open" id="TestUnit_24_3" title="a definition with multiple references" data-urls="#TestUnit line 21_7, 26_9">TestUnit</button>.<span class="cons_Constructor"><span id="TestPkg_24_12" title="a definition with no references">TestPkg</span></span> = &lt;
+    <span class="cons_String">[</span>&lt;<a href="../lexical/Identifiers.sdf3/#ID_19_3" id="ID_25_7" title="a reference to a single-file definition">ID</a>&gt;<span class="cons_String">]</span> <span class="cons_String">{</span>
+      &lt;{<a href="#TestUnit_15_15" id="TestUnit_26_9" title="a reference to a single-file definition">TestUnit</a> <span class="cons_Lit">"\n"</span>}*&gt;
     <span class="cons_String">}</span>
   &gt;
 
-  <a href="#TestUnit_21_7" id="TestUnit_30_3" title="Referenced at line 21, 26">TestUnit</a>.<span class="cons_Constructor"><span id="TestFile_30_12" title="Not referenced">TestFile</span></span> = &lt;
-    <span class="cons_String">[</span>&lt;<a href="../lexical/Identifiers.sdf3/#ID_19_3" id="ID_31_7" title="Defined at ../lexical/Identifiers.sdf3 line 19, 27, 28, 29, 30, 31">ID</a>&gt;<span class="cons_String">]</span>
-    &lt;<a href="#CompilationUnit_19_3" id="CompilationUnit_32_6" title="Defined at line 19">CompilationUnit</a>&gt;
+  <button class="modal-open" id="TestUnit_30_3" title="a definition with multiple references" data-urls="#TestUnit line 21_7, 26_9">TestUnit</button>.<span class="cons_Constructor"><span id="TestFile_30_12" title="a definition with no references">TestFile</span></span> = &lt;
+    <span class="cons_String">[</span>&lt;<a href="../lexical/Identifiers.sdf3/#ID_19_3" id="ID_31_7" title="a reference to a single-file definition">ID</a>&gt;<span class="cons_String">]</span>
+    &lt;<a href="#CompilationUnit_19_3" id="CompilationUnit_32_6" title="a reference to a single-file definition">CompilationUnit</a>&gt;
   &gt;
 
 

@@ -22,7 +22,7 @@ hide:
 10
 11
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/lexical/WhiteSpace_12_3" id="java/lexical/WhiteSpace_1_8" title="Referenced at ../Main.sdf3 line 12">java/lexical/WhiteSpace</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/lexical/WhiteSpace_12_3" id="java/lexical/WhiteSpace_1_8" title="a definition with a single reference">java/lexical/WhiteSpace</a>
 
 <span class="layout">// 3.6. White Space</span>
 

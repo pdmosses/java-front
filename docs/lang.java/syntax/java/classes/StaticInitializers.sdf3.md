@@ -25,20 +25,20 @@ hide:
 13
 14
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/classes/StaticInitializers_1_8" title="Multi-file references" data-urls="../ClassDeclarations.sdf3/#java/classes/StaticInitializers_13_3 line 13; ../Main.sdf3/#java/classes/StaticInitializers_11_3 line 11">java/classes/StaticInitializers</button>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/classes/StaticInitializers_1_8" title="a definition with multiple references" data-urls="../ClassDeclarations.sdf3/#java/classes/StaticInitializers line 13_3; ../Main.sdf3/#java/classes/StaticInitializers line 11_3">java/classes/StaticInitializers</button>
 
 <span class="layout">// 8.7. Static Initializers</span>
 
 <span class="keyword">imports</span>
-  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="Defined at ../../statements/Blocks.sdf3 line 1">java/statements/Blocks</a>
+  <a href="../../statements/Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="a reference to a single-file definition">java/statements/Blocks</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <a href="../ClassDeclarations.sdf3/#StaticInitializer_60_27" id="StaticInitializer_10_3" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>
+  <a href="../ClassDeclarations.sdf3/#StaticInitializer_60_27" id="StaticInitializer_10_3" title="a definition with a single reference">StaticInitializer</a>
 
 <span class="keyword">context-free syntax</span>
   
-  <a href="../ClassDeclarations.sdf3/#StaticInitializer_60_27" id="StaticInitializer_14_3" title="Referenced at ../ClassDeclarations.sdf3 line 60">StaticInitializer</a>.<span class="cons_Constructor"><span id="StaticInit_14_21" title="Not referenced">StaticInit</span></span> = &lt;<span class="cons_String">static</span> &lt;<a href="../../statements/Blocks.sdf3/#Block_12_3" id="Block_14_43" title="Defined at ../../statements/Blocks.sdf3 line 12, 17">Block</a>&gt;&gt;
+  <a href="../ClassDeclarations.sdf3/#StaticInitializer_60_27" id="StaticInitializer_14_3" title="a definition with a single reference">StaticInitializer</a>.<span class="cons_Constructor"><span id="StaticInit_14_21" title="a definition with no references">StaticInit</span></span> = &lt;<span class="cons_String">static</span> &lt;<a href="../../statements/Blocks.sdf3/#Block_12_3" id="Block_14_43" title="a reference to a single-file definition">Block</a>&gt;&gt;
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

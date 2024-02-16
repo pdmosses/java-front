@@ -32,27 +32,27 @@ hide:
 20
 21
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <span id="metaborg-java_1_8" title="Not referenced">metaborg-java</span>
+<td class="code"><pre><code><span class="keyword">module</span> <span id="metaborg-java_1_8" title="a definition with no references">metaborg-java</span>
 
 <span class="layout">// The Java Language Specification</span>
 <span class="layout">// Java SE 8 Edition</span>
 
 <span class="keyword">imports</span>
-  <a href="../java/Main.sdf3/#java/Main_1_8" id="java/Main_7_3" title="Defined at ../java/Main.sdf3 line 1">java/Main</a>
-  <a href="../java/Test.sdf3/#java/Test_1_8" id="java/Test_8_3" title="Defined at ../java/Test.sdf3 line 1">java/Test</a>
-  <a href="../java/packages/CompilationUnits.sdf3/#java/packages/CompilationUnits_1_8" id="java/packages/CompilationUnits_9_3" title="Defined at ../java/packages/CompilationUnits.sdf3 line 1">java/packages/CompilationUnits</a>
+  <a href="../java/Main.sdf3/#java/Main_1_8" id="java/Main_7_3" title="a reference to a single-file definition">java/Main</a>
+  <a href="../java/Test.sdf3/#java/Test_1_8" id="java/Test_8_3" title="a reference to a single-file definition">java/Test</a>
+  <a href="../java/packages/CompilationUnits.sdf3/#java/packages/CompilationUnits_1_8" id="java/packages/CompilationUnits_9_3" title="a reference to a single-file definition">java/packages/CompilationUnits</a>
 
 <span class="keyword">context-free sorts</span>
 
-  <a href="#Start_17_3" id="Start_13_3" title="Referenced at line 17">Start</a>
+  <a href="#Start_17_3" id="Start_13_3" title="a definition with a single reference">Start</a>
 
 <span class="keyword">context-free start-symbols</span>
 
-  <a href="#Start_13_3" id="Start_17_3" title="Defined at line 13, 21">Start</a>
+  <a href="#Start_13_3" id="Start_17_3" title="a reference to a single-file definition">Start</a>
 
 <span class="keyword">context-free syntax</span>
 
-  <a href="#Start_17_3" id="Start_21_3" title="Referenced at line 17">Start</a> = <a href="../java/packages/CompilationUnits.sdf3/#CompilationUnit_12_3" id="CompilationUnit_21_11" title="Defined at ../java/packages/CompilationUnits.sdf3 line 12, 17">CompilationUnit</a>
+  <a href="#Start_17_3" id="Start_21_3" title="a definition with a single reference">Start</a> = <a href="../java/packages/CompilationUnits.sdf3/#CompilationUnit_12_3" id="CompilationUnit_21_11" title="a reference to a single-file definition">CompilationUnit</a>
 
 </code></pre></td></tr></tbody></table></div>
 

@@ -20,14 +20,14 @@ hide:
 8
 9
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/statements/Main_14_3" id="java/statements/Main_1_8" title="Referenced at ../../Main.sdf3 line 14">java/statements/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/statements/Main_14_3" id="java/statements/Main_1_8" title="a definition with a single reference">java/statements/Main</a>
 
 <span class="layout">// Chapter 14. Blocks and Statements</span>
 
 <span class="keyword">imports</span>
-  <a href="../Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="Defined at ../Blocks.sdf3 line 1">java/statements/Blocks</a>
-  <a href="../LocalVariableDeclarations.sdf3/#java/statements/LocalVariableDeclarations_1_8" id="java/statements/LocalVariableDeclarations_7_3" title="Defined at ../LocalVariableDeclarations.sdf3 line 1">java/statements/LocalVariableDeclarations</a>
-  <a href="../Statements.sdf3/#java/statements/Statements_1_8" id="java/statements/Statements_8_3" title="Defined at ../Statements.sdf3 line 1">java/statements/Statements</a>
+  <a href="../Blocks.sdf3/#java/statements/Blocks_1_8" id="java/statements/Blocks_6_3" title="a reference to a single-file definition">java/statements/Blocks</a>
+  <a href="../LocalVariableDeclarations.sdf3/#java/statements/LocalVariableDeclarations_1_8" id="java/statements/LocalVariableDeclarations_7_3" title="a reference to a single-file definition">java/statements/LocalVariableDeclarations</a>
+  <a href="../Statements.sdf3/#java/statements/Statements_1_8" id="java/statements/Statements_8_3" title="a reference to a single-file definition">java/statements/Statements</a>
   
 </code></pre></td></tr></tbody></table></div>
 

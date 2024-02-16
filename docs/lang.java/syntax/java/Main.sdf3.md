@@ -28,23 +28,23 @@ hide:
 16
 17
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/Main_1_8" title="Multi-file references" data-urls="../Test.sdf3/#java/Main_7_3 line 7; ../../metaborg-java.sdf3/#java/Main_7_3 line 7">java/Main</button>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/Main_1_8" title="a definition with multiple references" data-urls="../Test.sdf3/#java/Main line 7_3; ../../metaborg-java.sdf3/#java/Main line 7_3">java/Main</button>
 
 <span class="layout">// The Java Language Specification</span>
 <span class="layout">// Java SE 8 Edition</span>
 
 <span class="keyword">imports</span>
-  <a href="../arrays/Main.sdf3/#java/arrays/Main_1_8" id="java/arrays/Main_7_3" title="Defined at ../arrays/Main.sdf3 line 1">java/arrays/Main</a>
-  <a href="../classes/Main.sdf3/#java/classes/Main_1_8" id="java/classes/Main_8_3" title="Defined at ../classes/Main.sdf3 line 1">java/classes/Main</a>
-  <a href="../interfaces/Main.sdf3/#java/interfaces/Main_1_8" id="java/interfaces/Main_9_3" title="Defined at ../interfaces/Main.sdf3 line 1">java/interfaces/Main</a>
-  <a href="../lexical/Main.sdf3/#java/lexical/Main_1_8" id="java/lexical/Main_10_3" title="Defined at ../lexical/Main.sdf3 line 1">java/lexical/Main</a>
-  <a href="../literals/Main.sdf3/#java/literals/Main_1_8" id="java/literals/Main_11_3" title="Defined at ../literals/Main.sdf3 line 1">java/literals/Main</a>
-  <a href="../names/Main.sdf3/#java/names/Main_1_8" id="java/names/Main_12_3" title="Defined at ../names/Main.sdf3 line 1">java/names/Main</a>
-  <a href="../packages/Main.sdf3/#java/packages/Main_1_8" id="java/packages/Main_13_3" title="Defined at ../packages/Main.sdf3 line 1">java/packages/Main</a>
-  <a href="../statements/Main.sdf3/#java/statements/Main_1_8" id="java/statements/Main_14_3" title="Defined at ../statements/Main.sdf3 line 1">java/statements/Main</a>
-  <a href="../types/Main.sdf3/#java/types/Main_1_8" id="java/types/Main_15_3" title="Defined at ../types/Main.sdf3 line 1">java/types/Main</a>  
-  <a href="../expressions/Main.sdf3/#java/expressions/Main_1_8" id="java/expressions/Main_16_3" title="Defined at ../expressions/Main.sdf3 line 1">java/expressions/Main</a>
-  <a href="../expressions/Disambiguation.sdf3/#java/expressions/Disambiguation_1_8" id="java/expressions/Disambiguation_17_3" title="Defined at ../expressions/Disambiguation.sdf3 line 1">java/expressions/Disambiguation</a>
+  <a href="../arrays/Main.sdf3/#java/arrays/Main_1_8" id="java/arrays/Main_7_3" title="a reference to a single-file definition">java/arrays/Main</a>
+  <a href="../classes/Main.sdf3/#java/classes/Main_1_8" id="java/classes/Main_8_3" title="a reference to a single-file definition">java/classes/Main</a>
+  <a href="../interfaces/Main.sdf3/#java/interfaces/Main_1_8" id="java/interfaces/Main_9_3" title="a reference to a single-file definition">java/interfaces/Main</a>
+  <a href="../lexical/Main.sdf3/#java/lexical/Main_1_8" id="java/lexical/Main_10_3" title="a reference to a single-file definition">java/lexical/Main</a>
+  <a href="../literals/Main.sdf3/#java/literals/Main_1_8" id="java/literals/Main_11_3" title="a reference to a single-file definition">java/literals/Main</a>
+  <a href="../names/Main.sdf3/#java/names/Main_1_8" id="java/names/Main_12_3" title="a reference to a single-file definition">java/names/Main</a>
+  <a href="../packages/Main.sdf3/#java/packages/Main_1_8" id="java/packages/Main_13_3" title="a reference to a single-file definition">java/packages/Main</a>
+  <a href="../statements/Main.sdf3/#java/statements/Main_1_8" id="java/statements/Main_14_3" title="a reference to a single-file definition">java/statements/Main</a>
+  <a href="../types/Main.sdf3/#java/types/Main_1_8" id="java/types/Main_15_3" title="a reference to a single-file definition">java/types/Main</a>  
+  <a href="../expressions/Main.sdf3/#java/expressions/Main_1_8" id="java/expressions/Main_16_3" title="a reference to a single-file definition">java/expressions/Main</a>
+  <a href="../expressions/Disambiguation.sdf3/#java/expressions/Disambiguation_1_8" id="java/expressions/Disambiguation_17_3" title="a reference to a single-file definition">java/expressions/Disambiguation</a>
 
 </code></pre></td></tr></tbody></table></div>
 

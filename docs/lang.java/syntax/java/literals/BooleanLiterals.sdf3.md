@@ -27,22 +27,22 @@ hide:
 15
 16
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/BooleanLiterals_8_3" id="java/literals/BooleanLiterals_1_8" title="Referenced at ../Main.sdf3 line 8">java/literals/BooleanLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/BooleanLiterals_8_3" id="java/literals/BooleanLiterals_1_8" title="a definition with a single reference">java/literals/BooleanLiterals</a>
 
 <span class="layout">// 3.10.3. Boolean Literals</span>
 
 <span class="keyword">context-free start-symbols</span>
   
-  <a href="#BoolLiteral_11_3" id="BoolLiteral_7_3" title="Defined at line 11, 15, 16">BoolLiteral</a>
+  <a href="#BoolLiteral_11_3" id="BoolLiteral_7_3" title="a reference to a single-file definition">BoolLiteral</a>
 
 <span class="keyword">context-free sorts</span>
   
-  <button class="modal-open" id="BoolLiteral_11_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>
+  <button class="modal-open" id="BoolLiteral_11_3" title="a definition with multiple references" data-urls="#BoolLiteral line 7_3; ../Main.sdf3/#BoolLiteral line 21_13">BoolLiteral</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <button class="modal-open" id="BoolLiteral_15_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>.<span class="cons_Constructor"><span id="True_15_15" title="Not referenced">True</span></span> = &lt;<span class="cons_String">true</span>&gt;
-  <button class="modal-open" id="BoolLiteral_16_3" title="Multi-file references" data-urls="#BoolLiteral_7_3 line 7; ../Main.sdf3/#BoolLiteral_21_13 line 21">BoolLiteral</button>.<span class="cons_Constructor"><span id="False_16_15" title="Not referenced">False</span></span> = &lt;<span class="cons_String">false</span>&gt;
+  <button class="modal-open" id="BoolLiteral_15_3" title="a definition with multiple references" data-urls="#BoolLiteral line 7_3; ../Main.sdf3/#BoolLiteral line 21_13">BoolLiteral</button>.<span class="cons_Constructor"><span id="True_15_15" title="a definition with no references">True</span></span> = &lt;<span class="cons_String">true</span>&gt;
+  <button class="modal-open" id="BoolLiteral_16_3" title="a definition with multiple references" data-urls="#BoolLiteral line 7_3; ../Main.sdf3/#BoolLiteral line 21_13">BoolLiteral</button>.<span class="cons_Constructor"><span id="False_16_15" title="a definition with no references">False</span></span> = &lt;<span class="cons_String">false</span>&gt;
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

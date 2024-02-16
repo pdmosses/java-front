@@ -41,4 +41,4 @@ The name binding of Java has not yet been specified in Spoofax meta-languages.
 and succeeding tests from the Java language specification.
 
 [Spoofax]: https://spoofax.dev
-[SDF3]: https://spoofax.dev/references/sdf3
+[SDF3]: https://spoofax.dev/references/sdf3/

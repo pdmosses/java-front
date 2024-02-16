@@ -17,12 +17,12 @@ hide:
 5
 6
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/arrays/Main_7_3" id="java/arrays/Main_1_8" title="Referenced at ../../Main.sdf3 line 7">java/arrays/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/arrays/Main_7_3" id="java/arrays/Main_1_8" title="a definition with a single reference">java/arrays/Main</a>
 
 <span class="layout">// Chapter 10. Arrays</span>
 
 <span class="keyword">imports</span>
-  <a href="../ArrayInitializers.sdf3/#java/arrays/ArrayInitializers_1_8" id="java/arrays/ArrayInitializers_6_3" title="Defined at ../ArrayInitializers.sdf3 line 1">java/arrays/ArrayInitializers</a>
+  <a href="../ArrayInitializers.sdf3/#java/arrays/ArrayInitializers_1_8" id="java/arrays/ArrayInitializers_6_3" title="a reference to a single-file definition">java/arrays/ArrayInitializers</a>
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

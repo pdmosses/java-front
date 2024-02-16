@@ -46,41 +46,41 @@ hide:
 34
 35
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/StringLiterals_10_3" id="java/literals/StringLiterals_1_8" title="Referenced at ../Main.sdf3 line 10">java/literals/StringLiterals</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/StringLiterals_10_3" id="java/literals/StringLiterals_1_8" title="a definition with a single reference">java/literals/StringLiterals</a>
 
 <span class="layout">// 3.10.5. String Literals</span>
 
 <span class="keyword">imports</span>
-  <a href="../EscapeSequences.sdf3/#java/literals/EscapeSequences_1_8" id="java/literals/EscapeSequences_6_3" title="Defined at ../EscapeSequences.sdf3 line 1">java/literals/EscapeSequences</a>
-  <a href="../../lexical/UnicodeEscapes.sdf3/#java/lexical/UnicodeEscapes_1_8" id="java/lexical/UnicodeEscapes_7_3" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 1">java/lexical/UnicodeEscapes</a>
+  <a href="../EscapeSequences.sdf3/#java/literals/EscapeSequences_1_8" id="java/literals/EscapeSequences_6_3" title="a reference to a single-file definition">java/literals/EscapeSequences</a>
+  <a href="../../lexical/UnicodeEscapes.sdf3/#java/lexical/UnicodeEscapes_1_8" id="java/lexical/UnicodeEscapes_7_3" title="a reference to a single-file definition">java/lexical/UnicodeEscapes</a>
 
 <span class="keyword">context-free start-symbols</span>
 
-  <a href="#StringLiteral_15_3" id="StringLiteral_11_3" title="Defined at line 15, 19">StringLiteral</a>
+  <a href="#StringLiteral_15_3" id="StringLiteral_11_3" title="a reference to a single-file definition">StringLiteral</a>
   
 <span class="keyword">context-free sorts</span>
 
-  <button class="modal-open" id="StringLiteral_15_3" title="Multi-file references" data-urls="#StringLiteral_11_3 line 11; ../Main.sdf3/#StringLiteral_23_13 line 23">StringLiteral</button>
+  <button class="modal-open" id="StringLiteral_15_3" title="a definition with multiple references" data-urls="#StringLiteral line 11_3; ../Main.sdf3/#StringLiteral line 23_13">StringLiteral</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <button class="modal-open" id="StringLiteral_19_3" title="Multi-file references" data-urls="#StringLiteral_11_3 line 11; ../Main.sdf3/#StringLiteral_23_13 line 23">StringLiteral</button>.<span class="cons_Constructor"><span id="StringLiteral_19_17" title="Not referenced">StringLiteral</span></span> = <a href="#StringLit_23_3" id="StringLit_19_33" title="Defined at line 23, 27">StringLit</a>  
+  <button class="modal-open" id="StringLiteral_19_3" title="a definition with multiple references" data-urls="#StringLiteral line 11_3; ../Main.sdf3/#StringLiteral line 23_13">StringLiteral</button>.<span class="cons_Constructor"><span id="StringLiteral_19_17" title="a definition with no references">StringLiteral</span></span> = <a href="#StringLit_23_3" id="StringLit_19_33" title="a reference to a single-file definition">StringLit</a>  
   
 <span class="keyword">lexical sorts</span>
 
-  <a href="#StringLit_19_33" id="StringLit_23_3" title="Referenced at line 19">StringLit</a>
+  <a href="#StringLit_19_33" id="StringLit_23_3" title="a definition with a single reference">StringLit</a>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="#StringLit_19_33" id="StringLit_27_3" title="Referenced at line 19">StringLit</a> = <span class="cons_Lit">"\""</span> <a href="#StringPart_28_3" id="StringPart_27_20" title="Defined at line 28, 29, 30">StringPart</a>* <span class="cons_Lit">"\""</span>
-  <a href="#StringPart_27_20" id="StringPart_28_3" title="Referenced at line 27">StringPart</a> = <a href="../../lexical/UnicodeEscapes.sdf3/#UnicodeEscape_7_3" id="UnicodeEscape_28_16" title="Defined at ../../lexical/UnicodeEscapes.sdf3 line 7">UnicodeEscape</a>
-  <a href="#StringPart_27_20" id="StringPart_29_3" title="Referenced at line 27">StringPart</a> = <a href="../EscapeSequences.sdf3/#EscapeSeq_7_3" id="EscapeSeq_29_16" title="Defined at ../EscapeSequences.sdf3 line 7, 8">EscapeSeq</a>
-  <a href="#StringPart_27_20" id="StringPart_30_3" title="Referenced at line 27">StringPart</a> = <a href="#StringChars_31_3" id="StringChars_30_16" title="Defined at line 31">StringChars</a>
-  <a href="#StringChars_30_16" id="StringChars_31_3" title="Referenced at line 30, 35">StringChars</a> = ~[\"\\\n\r]+
+  <a href="#StringLit_19_33" id="StringLit_27_3" title="a definition with a single reference">StringLit</a> = <span class="cons_Lit">"\""</span> <a href="#StringPart_28_3" id="StringPart_27_20" title="a reference to a single-file definition">StringPart</a>* <span class="cons_Lit">"\""</span>
+  <a href="#StringPart_27_20" id="StringPart_28_3" title="a definition with a single reference">StringPart</a> = <a href="../../lexical/UnicodeEscapes.sdf3/#UnicodeEscape_7_3" id="UnicodeEscape_28_16" title="a reference to a single-file definition">UnicodeEscape</a>
+  <a href="#StringPart_27_20" id="StringPart_29_3" title="a definition with a single reference">StringPart</a> = <a href="../EscapeSequences.sdf3/#EscapeSeq_7_3" id="EscapeSeq_29_16" title="a reference to a single-file definition">EscapeSeq</a>
+  <a href="#StringPart_27_20" id="StringPart_30_3" title="a definition with a single reference">StringPart</a> = <a href="#StringChars_31_3" id="StringChars_30_16" title="a reference to a single-file definition">StringChars</a>
+  <button class="modal-open" id="StringChars_31_3" title="a definition with multiple references" data-urls="#StringChars line 30_16, 35_3">StringChars</button> = ~[\"\\\n\r]+
 
 <span class="keyword">lexical restrictions</span>
 
-  <a href="#StringChars_31_3" id="StringChars_35_3" title="Defined at line 31">StringChars</a> -/- ~[\"\\\n\r]
+  <a href="#StringChars_31_3" id="StringChars_35_3" title="a reference to a single-file definition">StringChars</a> -/- ~[\"\\\n\r]
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

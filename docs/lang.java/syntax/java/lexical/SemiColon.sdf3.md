@@ -23,18 +23,18 @@ hide:
 11
 12
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/lexical/SemiColon_1_8" title="Multi-file references" data-urls="../../classes/ClassDeclarations.sdf3/#java/lexical/SemiColon_8_3 line 8; ../../interfaces/AnnotationTypes.sdf3/#java/lexical/SemiColon_9_3 line 9; ../../interfaces/InterfaceDeclarations.sdf3/#java/lexical/SemiColon_8_3 line 8; ../../packages/TypeDeclarations.sdf3/#java/lexical/SemiColon_6_3 line 6">java/lexical/SemiColon</button>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/lexical/SemiColon_1_8" title="a definition with multiple references" data-urls="../../classes/ClassDeclarations.sdf3/#java/lexical/SemiColon line 8_3; ../../interfaces/AnnotationTypes.sdf3/#java/lexical/SemiColon line 9_3; ../../interfaces/InterfaceDeclarations.sdf3/#java/lexical/SemiColon line 8_3; ../../packages/TypeDeclarations.sdf3/#java/lexical/SemiColon line 6_3">java/lexical/SemiColon</button>
 
 <span class="layout">//  semi colon get its own productions,</span>
 <span class="layout">//  to prevent duplicate constructors</span>
 
 <span class="keyword">context-free sorts</span>
 
-  <button class="modal-open" id="SemiColon_8_3" title="Multi-file references" data-urls="../../classes/ClassDeclarations.sdf3/#SemiColon_67_28 line 67; ../../interfaces/AnnotationTypes.sdf3/#SemiColon_35_37 line 35; ../../interfaces/InterfaceDeclarations.sdf3/#SemiColon_47_32 line 47; ../../packages/TypeDeclarations.sdf3/#SemiColon_18_21 line 18">SemiColon</button>
+  <button class="modal-open" id="SemiColon_8_3" title="a definition with multiple references" data-urls="../../classes/ClassDeclarations.sdf3/#SemiColon line 67_28; ../../interfaces/AnnotationTypes.sdf3/#SemiColon line 35_37; ../../interfaces/InterfaceDeclarations.sdf3/#SemiColon line 47_32; ../../packages/TypeDeclarations.sdf3/#SemiColon line 18_21">SemiColon</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <button class="modal-open" id="SemiColon_12_3" title="Multi-file references" data-urls="../../classes/ClassDeclarations.sdf3/#SemiColon_67_28 line 67; ../../interfaces/AnnotationTypes.sdf3/#SemiColon_35_37 line 35; ../../interfaces/InterfaceDeclarations.sdf3/#SemiColon_47_32 line 47; ../../packages/TypeDeclarations.sdf3/#SemiColon_18_21 line 18">SemiColon</button>.<span class="cons_Constructor"><span id="SemiColon_12_13" title="Not referenced">SemiColon</span></span> = &lt;<span class="cons_String">;</span>&gt;
+  <button class="modal-open" id="SemiColon_12_3" title="a definition with multiple references" data-urls="../../classes/ClassDeclarations.sdf3/#SemiColon line 67_28; ../../interfaces/AnnotationTypes.sdf3/#SemiColon line 35_37; ../../interfaces/InterfaceDeclarations.sdf3/#SemiColon line 47_32; ../../packages/TypeDeclarations.sdf3/#SemiColon line 18_21">SemiColon</button>.<span class="cons_Constructor"><span id="SemiColon_12_13" title="a definition with no references">SemiColon</span></span> = &lt;<span class="cons_String">;</span>&gt;
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

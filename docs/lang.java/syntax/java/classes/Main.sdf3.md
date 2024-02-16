@@ -23,18 +23,18 @@ hide:
 11
 12
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/classes/Main_8_3" id="java/classes/Main_1_8" title="Referenced at ../../Main.sdf3 line 8">java/classes/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/classes/Main_8_3" id="java/classes/Main_1_8" title="a definition with a single reference">java/classes/Main</a>
 
 <span class="layout">// Chapter 8. Classes</span>
 
 <span class="keyword">imports</span>
-  <a href="../ClassDeclarations.sdf3/#java/classes/ClassDeclarations_1_8" id="java/classes/ClassDeclarations_6_3" title="Defined at ../ClassDeclarations.sdf3 line 1">java/classes/ClassDeclarations</a>
-  <a href="../FieldDeclarations.sdf3/#java/classes/FieldDeclarations_1_8" id="java/classes/FieldDeclarations_7_3" title="Defined at ../FieldDeclarations.sdf3 line 1">java/classes/FieldDeclarations</a>
-  <a href="../MethodDeclarations.sdf3/#java/classes/MethodDeclarations_1_8" id="java/classes/MethodDeclarations_8_3" title="Defined at ../MethodDeclarations.sdf3 line 1">java/classes/MethodDeclarations</a>
-  <a href="../EnumDeclarations.sdf3/#java/classes/EnumDeclarations_1_8" id="java/classes/EnumDeclarations_9_3" title="Defined at ../EnumDeclarations.sdf3 line 1">java/classes/EnumDeclarations</a>
-  <a href="../InstanceInitializers.sdf3/#java/classes/InstanceInitializers_1_8" id="java/classes/InstanceInitializers_10_3" title="Defined at ../InstanceInitializers.sdf3 line 1">java/classes/InstanceInitializers</a>
-  <a href="../StaticInitializers.sdf3/#java/classes/StaticInitializers_1_8" id="java/classes/StaticInitializers_11_3" title="Defined at ../StaticInitializers.sdf3 line 1">java/classes/StaticInitializers</a>
-  <a href="../ConstructorDeclarations.sdf3/#java/classes/ConstructorDeclarations_1_8" id="java/classes/ConstructorDeclarations_12_3" title="Defined at ../ConstructorDeclarations.sdf3 line 1">java/classes/ConstructorDeclarations</a>
+  <a href="../ClassDeclarations.sdf3/#java/classes/ClassDeclarations_1_8" id="java/classes/ClassDeclarations_6_3" title="a reference to a single-file definition">java/classes/ClassDeclarations</a>
+  <a href="../FieldDeclarations.sdf3/#java/classes/FieldDeclarations_1_8" id="java/classes/FieldDeclarations_7_3" title="a reference to a single-file definition">java/classes/FieldDeclarations</a>
+  <a href="../MethodDeclarations.sdf3/#java/classes/MethodDeclarations_1_8" id="java/classes/MethodDeclarations_8_3" title="a reference to a single-file definition">java/classes/MethodDeclarations</a>
+  <a href="../EnumDeclarations.sdf3/#java/classes/EnumDeclarations_1_8" id="java/classes/EnumDeclarations_9_3" title="a reference to a single-file definition">java/classes/EnumDeclarations</a>
+  <a href="../InstanceInitializers.sdf3/#java/classes/InstanceInitializers_1_8" id="java/classes/InstanceInitializers_10_3" title="a reference to a single-file definition">java/classes/InstanceInitializers</a>
+  <a href="../StaticInitializers.sdf3/#java/classes/StaticInitializers_1_8" id="java/classes/StaticInitializers_11_3" title="a reference to a single-file definition">java/classes/StaticInitializers</a>
+  <a href="../ConstructorDeclarations.sdf3/#java/classes/ConstructorDeclarations_1_8" id="java/classes/ConstructorDeclarations_12_3" title="a reference to a single-file definition">java/classes/ConstructorDeclarations</a>
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">

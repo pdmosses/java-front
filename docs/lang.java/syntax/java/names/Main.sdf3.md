@@ -18,13 +18,13 @@ hide:
 6
 7
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/names/Main_12_3" id="java/names/Main_1_8" title="Referenced at ../../Main.sdf3 line 12">java/names/Main</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../../Main.sdf3/#java/names/Main_12_3" id="java/names/Main_1_8" title="a definition with a single reference">java/names/Main</a>
 
 <span class="layout">// Chapter 6. Names</span>
 
 <span class="keyword">imports</span> 
 
-  <a href="../Names.sdf3/#java/names/Names_1_8" id="java/names/Names_7_3" title="Defined at ../Names.sdf3 line 1">java/names/Names</a>
+  <a href="../Names.sdf3/#java/names/Names_1_8" id="java/names/Names_7_3" title="a reference to a single-file definition">java/names/Names</a>
 
 </code></pre></td></tr></tbody></table></div>
 

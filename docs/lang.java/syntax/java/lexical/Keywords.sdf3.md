@@ -120,62 +120,62 @@ hide:
 108
 109
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/lexical/Keywords_1_8" title="Multi-file references" data-urls="../Identifiers.sdf3/#java/lexical/Keywords_7_3 line 7; ../Main.sdf3/#java/lexical/Keywords_8_3 line 8">java/lexical/Keywords</button>
+<td class="code"><pre><code><span class="keyword">module</span> <button class="modal-open" id="java/lexical/Keywords_1_8" title="a definition with multiple references" data-urls="../Identifiers.sdf3/#java/lexical/Keywords line 7_3; ../Main.sdf3/#java/lexical/Keywords line 8_3">java/lexical/Keywords</button>
 
 <span class="layout">// 3.9. Keywords</span>
 
 <span class="keyword">lexical syntax</span>
 
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_7_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"abstract"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_8_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"assert"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_9_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"boolean"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_10_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"break"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_11_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"byte"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_12_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"case"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_13_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"catch"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_14_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"char"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_15_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"class"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_16_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"const"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_17_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"continue"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_18_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"default"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_19_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"do"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_20_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"double"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_21_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"else"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_22_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"enum"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_23_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"extends"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_24_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"final"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_25_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"finally"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_26_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"float"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_27_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"for"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_28_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"goto"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_29_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"if"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_30_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"implements"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_31_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"import"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_32_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"instanceof"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_33_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"int"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_34_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"interface"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_35_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"long"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_36_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"native"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_37_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"new"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_38_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"package"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_39_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"private"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_40_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"protected"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_41_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"public"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_42_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"return"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_43_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"short"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_44_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"static"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_45_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"strictfp"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_46_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"super"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_47_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"switch"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_48_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"synchronized"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_49_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"this"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_50_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"throw"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_51_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"throws"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_52_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"transient"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_53_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"try"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_54_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"void"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_55_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"volatile"</span>
-  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_56_3" title="Referenced at ../Identifiers.sdf3 line 28">Keyword</a> = <span class="cons_Lit">"while"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_7_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"abstract"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_8_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"assert"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_9_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"boolean"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_10_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"break"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_11_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"byte"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_12_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"case"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_13_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"catch"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_14_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"char"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_15_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"class"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_16_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"const"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_17_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"continue"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_18_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"default"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_19_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"do"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_20_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"double"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_21_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"else"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_22_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"enum"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_23_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"extends"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_24_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"final"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_25_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"finally"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_26_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"float"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_27_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"for"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_28_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"goto"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_29_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"if"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_30_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"implements"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_31_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"import"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_32_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"instanceof"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_33_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"int"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_34_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"interface"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_35_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"long"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_36_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"native"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_37_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"new"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_38_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"package"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_39_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"private"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_40_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"protected"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_41_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"public"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_42_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"return"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_43_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"short"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_44_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"static"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_45_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"strictfp"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_46_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"super"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_47_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"switch"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_48_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"synchronized"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_49_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"this"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_50_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"throw"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_51_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"throws"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_52_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"transient"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_53_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"try"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_54_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"void"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_55_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"volatile"</span>
+  <a href="../Identifiers.sdf3/#Keyword_28_8" id="Keyword_56_3" title="a definition with a single reference">Keyword</a> = <span class="cons_Lit">"while"</span>
 
 <span class="keyword">lexical restrictions</span>
 

@@ -26,21 +26,21 @@ hide:
 14
 15
 </pre></div></td>
-<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/NullLiteral_11_3" id="java/literals/NullLiteral_1_8" title="Referenced at ../Main.sdf3 line 11">java/literals/NullLiteral</a>
+<td class="code"><pre><code><span class="keyword">module</span> <a href="../Main.sdf3/#java/literals/NullLiteral_11_3" id="java/literals/NullLiteral_1_8" title="a definition with a single reference">java/literals/NullLiteral</a>
 
 <span class="layout">// 3.10.7. The Null Literal</span>
 
 <span class="keyword">context-free start-symbols</span>
   
-  <a href="#NullLiteral_11_3" id="NullLiteral_7_3" title="Defined at line 11, 15">NullLiteral</a>
+  <a href="#NullLiteral_11_3" id="NullLiteral_7_3" title="a reference to a single-file definition">NullLiteral</a>
 
 <span class="keyword">context-free sorts</span>
 
-  <button class="modal-open" id="NullLiteral_11_3" title="Multi-file references" data-urls="#NullLiteral_7_3 line 7; ../Main.sdf3/#NullLiteral_24_13 line 24">NullLiteral</button>
+  <button class="modal-open" id="NullLiteral_11_3" title="a definition with multiple references" data-urls="#NullLiteral line 7_3; ../Main.sdf3/#NullLiteral line 24_13">NullLiteral</button>
 
 <span class="keyword">context-free syntax</span>
 
-  <button class="modal-open" id="NullLiteral_15_3" title="Multi-file references" data-urls="#NullLiteral_7_3 line 7; ../Main.sdf3/#NullLiteral_24_13 line 24">NullLiteral</button>.<span class="cons_Constructor"><span id="Null_15_15" title="Not referenced">Null</span></span> = &lt;<span class="cons_String">null</span>&gt;
+  <button class="modal-open" id="NullLiteral_15_3" title="a definition with multiple references" data-urls="#NullLiteral line 7_3; ../Main.sdf3/#NullLiteral line 24_13">NullLiteral</button>.<span class="cons_Constructor"><span id="Null_15_15" title="a definition with no references">Null</span></span> = &lt;<span class="cons_String">null</span>&gt;
 </code></pre></td></tr></tbody></table></div>
 
 <div id="modal">
